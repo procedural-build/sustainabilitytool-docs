@@ -17,14 +17,6 @@ body {
 	grid-template-rows: 1fr auto;
 }
 
-header {
-	text-align: center;
-	font-weight: bold;
-	font-size: 2rem;
-	border: 2px solid #2081c5;
-	background-color: #2081c5;
-}
-
 main {
 	padding: 1rem;
 }
@@ -35,4 +27,69 @@ footer {
 	padding: 1rem;
 	border-top: 2px solid #2081c5;
 	background-color: #2081c5
+}
+
+.navbar-area {
+	margin: 0;
+	padding: 0;
+	color: #ddd;
+}
+
+.navbar-light {
+	background-color: #636466 !important;
+	border-color: #636466 !important;
+}
+
+.navbar-light a {
+	color: #ddd !important;
+}
+
+.navbar-light .btn-outline-secondary {
+	color: #ddd !important;
+	border-color: #ddd !important;
+}
+
+.navbar {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 0.75rem 1rem;
+}
+
+.navbar > .container,
+.navbar > .container-fluid {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.navbar-brand {
+	display: inline-block;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+}
+
+.float-right {
+	float: right !important;
 }

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-
+import { Header } from "./header"
 
 /**
  * The page layout component
@@ -22,9 +22,7 @@ const Page = ({ title, stylesheet, header, main, footer, navigation, script, _re
 	</head>
 	<body>
 		<div className="top">
-			<header role="banner">
-				{ header }
-			</header>
+			< Header />
 
 			<main>
 				<aside className="docs__nav">
