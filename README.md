@@ -7,6 +7,7 @@ It is a static site generator, which reads Markdown files and turns them into HT
 
 # What is Markdown?
 [Primer on Markdown](https://cuttlebelle.com/documentation/content/#primer-on-markdown)
+There is a [template page](https://github.com/procedural-build/sustainabilitytool-docs/blob/master/content/blankPageTemplate/template.md), where you can see how markdown works.
 
 # Where Do I Find The Existing Documentation?
 
