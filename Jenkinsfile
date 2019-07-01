@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Build && Deploy') {
       steps {
-        sh 'cd cuttlebelle && cuttlebelle'
+        sh 'cuttlebelle'
         script {
             if (env.BRANCH_NAME == 'master') {
                 env.S3_BUNDLE_PATH = '/stable/'
