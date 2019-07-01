@@ -5,17 +5,17 @@ import React from 'react';
 /**
  * The page layout component
  */
-const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _ID }) => (
+const Page = ({ title, stylesheet, header, main, footer, navigation, script, _relativeURL, _ID }) => (
 	<html>
 	<head>
-		<title>Cuttlebelle - { title }</title>
+		<title>Sustainability Tool Documentation - { title }</title>
 		<meta charSet="utf-8" />
 		<meta httpEquiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href={ _relativeURL( `/assets/css/site.css`, _ID ) } />
 		{
-			stylesheet != undefined
+			stylesheet !== undefined
 				? ( <link rel="stylesheet" href={ _relativeURL( `/assets/css/${ stylesheet }.css`, _ID ) } /> )
 				: null
 		}
@@ -27,6 +27,10 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 			</header>
 
 			<main>
+				<aside className="docs__nav">
+					{ navigation }
+				</aside>
+
 				{ main }
 			</main>
 		</div>
@@ -36,7 +40,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 		</footer>
 
 		{
-			script != undefined
+			script !== undefined
 				? ( <script src={ _relativeURL( `/assets/js/${ script }.js`, _ID ) } /> )
 				: null
 		}
