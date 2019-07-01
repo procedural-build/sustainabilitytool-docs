@@ -21,7 +21,8 @@ header {
 	text-align: center;
 	font-weight: bold;
 	font-size: 2rem;
-	border-bottom: 8px solid #32ccbc;
+	border: 2px solid #2081c5;
+	background-color: #2081c5;
 }
 
 main {
@@ -32,5 +33,6 @@ footer {
 	grid-row-start: 2;
 	grid-row-end: 3;
 	padding: 1rem;
-	border-top: 2px solid #f55555;
+	border-top: 2px solid #2081c5;
+	background-color: #2081c5
 }
