@@ -9,7 +9,9 @@ import React, { Fragment } from 'react';
  */
 const Partial = ({ _body }) => (
 	<Fragment>
+		<div className="body__divider">
 		{ _body }
+		</div>
 	</Fragment>
 );
 

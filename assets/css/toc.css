@@ -1,11 +1,14 @@
 .toc {
     margin: 0 1rem 0 1rem;
     overflow: hidden;
+    float: left;
+
 
 @media screen and ( min-width: 650px ) {
     padding-top: 3rem;
 }
 }
+
 
 .toc__section__headline {
     margin: 0.5rem 0 0 0;
@@ -14,14 +17,14 @@
 
 .toc__section {
     margin-bottom: 1rem;
-
-ul {
+}
+.toc__section ul {
     display: none;
     list-style: none;
     margin: 0 0 0 0.5rem;
 }
 
-&.toc__section--active ul {
+.toc__section--active ul {
      display: block;
  }
 
