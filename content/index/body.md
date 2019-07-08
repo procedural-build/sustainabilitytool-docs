@@ -83,7 +83,7 @@ By default, reporters will be able to input data against for each metric for eve
   - period: select the relevant 
   - from date: select the second day in the reporting period you wish this metric to be first reported
  5. Click 'Submit'. The frequency of the metric will now display in the metric row
- 6. To edit the metric frequency, repeat steps 1 to 5
+ 6. To edit the metric frequency, repeat steps 1 to 5 
  
  Note: the frequency a metric should be reported cannot be lesser than the reporting period, which is set in the project settings.
  
