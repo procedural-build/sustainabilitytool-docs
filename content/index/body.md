@@ -92,6 +92,6 @@ By default, reporters will be able to input data against for each metric for eve
  Allow reporters to upload documents to complement the data they input against a metric e.g. waste transfer notes
  
 1. Go to your project home
-2. In the Admin menu, select 'Metrics'
+2. In the Admin menu, select 'Metrics' 
 3. Click the settings icon on the same row as the metric you wish to enable the document upload for. Click 'Enable Document Upload'
 4. Enter the Title and a description of the document you expect reporters to upload. Click 'Submit'. An integer in a bracket will indicate the document upload functionality is enabled for that metric
