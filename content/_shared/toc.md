@@ -4,5 +4,4 @@ sections:
   - index
   - technical
   - newpage
-  - another one
 ---
