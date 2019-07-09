@@ -79,14 +79,15 @@ By default, reporters will be able to input data against for each metric for eve
 2. In the Admin menu, select 'Metrics'
 3. Click the settings icon on the same row as the metric you wish to modify/edit the reporting frequency. Click 'Set Frequency'
 4. Complete the fields:
-  - due every: enter an integer
-  - period: select the relevant 
-  - from date: select the second day in the reporting period you wish this metric to be first reported
+  \- due every: enter an integer
+  \- period: select the relevant 
+  \- from date: select the second day in the reporting period you wish this metric to be first reported
   
  5. Click 'Submit'. The frequency of the metric will now display in the metric row
  6. To edit the metric frequency, repeat steps 1 to 5 
  
  Note: the frequency a metric should be reported cannot be lesser than the reporting period, which is set in the project settings.
+ 
  
  ##### Enable document upload
  
@@ -96,3 +97,84 @@ By default, reporters will be able to input data against for each metric for eve
 2. In the Admin menu, select 'Metrics' 
 3. Click the settings icon on the same row as the metric you wish to enable the document upload for. Click 'Enable Document Upload'
 4. Enter the Title and a description of the document you expect reporters to upload. Click 'Submit'. An integer in a bracket will indicate the document upload functionality is enabled for that metric
+
+
+## Business units
+
+Company admin users can create business units to manage sustainability performance for a subset of their organisation’s operations.
+A company account can have, directly below it, multiple business units and projects, which all contribute to the data in the company dashboard. In turn, business units can have other business units and projects within them. These will contribute to the data in the ‘parent’ business unit dashboard. Business unit dashboards only show data from other business units and projects that are below them.
+As such, users can use this functionality to manage performance for groups of projects at multiple levels within their organisation.
+
+
+### Create business unit 
+
+1. Go to the company (or business unit) dashboard where the new business unit will feed into
+2. In the Admin menu, select ‘Settings’
+3. Scroll down to the Business Units table
+4. Click ‘Add a Business Unit’ found on the top-right of the table
+5. Complete the relevant details and ‘Submit’
+6. To create additional business units, repeat steps 1 to 5
+
+To create a business unit within an existing business unit, go to the existing business unit’s dashboard and repeat steps 2 to 5.
+
+
+### Edit a business unit name
+
+1. Go to the business unit dashboard, by clicking on the relevant link in the left-hand menu
+2. In the Admin menu, select ‘Settings’
+3. Under Corporate details, edit the Name field
+4. Click ‘Submit’
+
+
+## Projects
+
+\[Enter description for project\]
+
+
+### Create project
+
+1. Go to the company (or business unit) dashboard where the new project unit will feed into
+2. In the Admin menu, select ‘Settings’
+3. Scroll down to the 'Projects at this level' table and click 'Add a Project' found on the top-right of the table
+4. Enter the project name and address if relevant
+5. Define the project settings:
+  \- Reporting from: defines the beginning of the first reporting period; when reporting should commence
+  \- Reporting to: defines the month after which reporting will cease e.g. by selecting the 10th December 2019, you are indicating that reporting should end in November 2019
+  \- Every & Reporting Increments: define the frequency of the reporting periods e.g. "every 1 months" will generate a project with monthly reporting periods
+  6. If using a template for the metrics and indicator settings, select appropriate template otherwise leave on "None"
+  7. Click "Submit"
+  
+
+### Edit project setting: name
+
+1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
+2. In the Admin menu, select ‘Settings’
+3. Under Project details, edit the Name field
+4. Click 'Submit'
+
+
+### Edit project setting: reporting frequency
+
+1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
+2. In the Admin menu, select ‘Settings’
+3. Under the Reporting Periods table, click on 'Eidt Reporting Duration'
+4. Modify the Every and Reporting Increments fields
+5. Click ‘Submit’
+
+
+### Edit project setting: reporting start date
+
+1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
+2. In the Admin menu, select ‘Settings’
+3. Under the Reporting Periods table, scroll down to the earliest reporting period with a 0 in the 'Num Reports' column
+4. Click on the settings icon and delete
+5. Repeat steps 3 and 4 until you the earliest reporting period corresponds to your desired reporting start data
+
+
+### Edit project setting: reporting end date
+
+1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
+2. In the Admin menu, select ‘Settings’
+3. Under the Reporting Periods table, click on 'Eidt Reporting Duration'
+4. Modify the Reporting to field
+5. Click ‘Submit’
