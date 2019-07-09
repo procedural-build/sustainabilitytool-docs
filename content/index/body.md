@@ -215,6 +215,12 @@ By default, reporters will be able to input data against for each metric for eve
 
 ### Set up reporting package metrics
 
+To draft:
+\-	Add user
+\-	Creating/editing indicators
+\-	Setting/editing targets and thresholds
+\-	Reporting
+\-	Approving/rejecting reports
 
 
 
