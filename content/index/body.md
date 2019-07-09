@@ -178,3 +178,11 @@ To create a business unit within an existing business unit, go to the existing b
 3. Under the Reporting Periods table, click on 'Eidt Reporting Duration'
 4. Modify the Reporting to field
 5. Click ‘Submit’
+
+
+## Reporting packages
+
+\[Enter description for reporting packages\]
+
+
+
