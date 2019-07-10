@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "cuttlebelle": {                  // The cuttlebelle object
+    "site": {                       // General settings
+      "root": "/"                   // What should cuttlebelle append to links?
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/procedural-build/sustainabilitytool-docs.git"
