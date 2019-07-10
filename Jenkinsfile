@@ -5,6 +5,8 @@ pipeline {
   stages {
     stage('Build && Deploy') {
       steps {
+        sh 'npm install'
+        sh 'node --experimental-modules code/updateTOC.mjs'
         sh 'cuttlebelle'
         script {
             if (env.BRANCH_NAME == 'master') {

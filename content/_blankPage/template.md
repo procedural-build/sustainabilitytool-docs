@@ -42,7 +42,7 @@ __And so is this text.__
 
 [Click me!](https://uk.sustainabilitytool.com/)
 [Click me!](https://uk.sustainabilitytool.com/ "with title")
-[Go to linked page](/content/blankPageTemplate/linkedPage.md)
+[Go to linked page](/content/_blankPage/linkedPage.md)
 
 
 # Images
