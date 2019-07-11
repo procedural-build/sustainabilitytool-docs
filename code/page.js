@@ -23,12 +23,10 @@ const Page = ({ title, stylesheet, header, main, footer, navigation, script, _re
 	<body>
 		<div className="top">
 			< Header />
-
-			<main>
-				<aside className="docs__nav">
-					{ navigation }
-				</aside>
-
+			<aside className="docs__nav">
+				{ navigation }
+			</aside>
+			<main className="body__divider">
 				{ main }
 			</main>
 		</div>
