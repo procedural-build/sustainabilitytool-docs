@@ -6,6 +6,7 @@ pipeline {
     stage('Build && Deploy') {
       steps {
         sh 'npm install'
+        sh 'node --experimental-modules code/updateIndex.mjs'
         sh 'node --experimental-modules code/updateTOC.mjs'
         sh 'cuttlebelle'
         script {

@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import PropTypes from 'prop-types';
-
+import { CamelToTitle } from "./utils";
 
 /**
  * The toc component
@@ -25,7 +25,7 @@ const TOC = ({sections, _pages, _ID, _relativeURL}) => {
                                         const sectionName = partial.replace('.md', '');
                                         return (
                                             <li key={i}>
-                                                <a href={`${_relativeURL(page._url, _ID)}/#${sectionName}`}>{SentenceCase(sectionName.replace(/-/g, ' '))}</a>
+                                                <a href={`${_relativeURL(page._url, _ID)}/#${sectionName}`}>{CamelToTitle(sectionName.replace(/-/g, ' '))}</a>
                                             </li>
                                         );
                                     }): null
