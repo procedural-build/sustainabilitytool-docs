@@ -1,9 +1,0 @@
-title: New Page 
-header:
-  - /_shared/header.md
-main:
-  - 0_NewPage.md
-navigation:
-  - /_shared/toc.md
-footer:
-  - /_shared/footer.md
