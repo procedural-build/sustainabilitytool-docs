@@ -31,10 +31,13 @@ The X is the position the section will have in the TOC and on the page.
 
 ### Example
 The files in the following folder structure:
+
+```
 documentationPage/
   0_MyDocumentation.md
   1_SectionAboutSomething.md
   2_SectionAboutSomethingElse.md
+```
 
 Will render as:
 ![alt](/assets/images/MyDocumentsPage.png)
