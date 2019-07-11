@@ -18,12 +18,26 @@ Everything else should not be touched unless you know what you are doing.
 
 Go to *content*
 
-Adding a new page to the documentation is not completely streight forward, but needs:
+Adding a new page to the documentation is now straight forward:
 * New folder
-* index.yml
-* body.md
+* 0_SomeName.md
 
-See what is needed (and why) at https://cuttlebelle.com/documentation/#create-a-new-page
+The page will now be rendered in the TOC as "Some Name".
+
+## How Do I Add SubSections?
+If you want to add subsections to your page you do so by creating a new file in the the same folder as the page, you want it to be a subsection of.
+Name the file like this: "X_SectionName.md"
+The X is the position the section will have in the TOC and on the page.
+
+### Example
+The files in the following folder structure:
+documentationPage/
+  0_MyDocumentation.md
+  1_SectionAboutSomething.md
+  2_SectionAboutSomethingElse.md
+
+Will render as:
+![alt](/assets/images/MyDocumentsPage.png)
 
 ### To add a new file on Github:
 
