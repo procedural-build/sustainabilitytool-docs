@@ -51,4 +51,14 @@ const writeIndexToJSON = function(folder) {
   });
 };
 
+
+const writeDocumentsToJSON = function(folder) {
+  let data = JSON.stringify(collectDocuments());
+  FS.writeFile(`${folder}/lunrDocuments.json`, data, err => {
+    if (err) throw err;
+    console.log("The new lunrDocuments.json has been saved!");
+  });
+};
+
 writeIndexToJSON("./assets/lunr");
+writeDocumentsToJSON("./assets/lunr");
