@@ -16,9 +16,6 @@ export class Header extends React.Component {
 
                             <a href="https://uk.sustainabilitytool.com"><img src="/assets/images/logo.png" alt="logo" /></a>
                         </div>
-                        <div className="float-right">
-                            <SearchBar/>
-                        </div>
                     </div>
                 </nav>
             </div>
