@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/procedural-build/sustainabilitytool-docs#readme",
   "dependencies": {
-    "glob": "^7.1.4",
+    "glob": "^7.1.4"
   }
 }
