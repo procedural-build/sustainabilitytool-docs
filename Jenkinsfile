@@ -8,6 +8,7 @@ pipeline {
         sh 'npm install'
         sh 'node --experimental-modules code/updateIndex.mjs'
         sh 'node --experimental-modules code/updateTOC.mjs'
+        sh 'node --experimental-modules code/createLunr.mjs'
         sh 'cuttlebelle'
         script {
             if (env.BRANCH_NAME == 'master') {

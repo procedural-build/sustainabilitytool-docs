@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { SearchBar} from "./searchBar";
 
 export class Header extends React.Component {
 
@@ -15,6 +15,9 @@ export class Header extends React.Component {
                         <div className="navbar-brand">
 
                             <a href="https://uk.sustainabilitytool.com"><img src="/assets/images/logo.png" alt="logo" /></a>
+                        </div>
+                        <div className="float-right">
+                            <SearchBar/>
                         </div>
                     </div>
                 </nav>

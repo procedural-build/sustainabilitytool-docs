@@ -45,16 +45,3 @@ for (let folder of folders) {
     //console.log(cleanFiles);
     generateIndex(cleanFiles, folder)
 }
-
-/*
-let folder = "./content/technical"
-let files = Glob.sync(`${folder}/*.md`);
-let cleanFiles = [];
-
-for (let file of files) {
-    let file_list = file.split("/");
-    cleanFiles.push(file_list[file_list.length - 1]);
-}
-generateIndex(cleanFiles, folder);
-
- */
