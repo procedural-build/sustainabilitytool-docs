@@ -224,31 +224,97 @@ Allow reporters to upload documents to complement the data they input against a 
 
 ## Indicators
 
+Gauges of performance that gives the user and understanding of how their project is performing in specific measures areas.
+
 ### Create Indicators
+
+TBC
 
 ### Editing Indicators
 
+TBC
+
 ### Setting Targets
 
+1. As a Client User, you can set targets and performance thresholds for your Project indicators. These inform the Red, Amber, Green rating you see on your Project’s Sustainability Issues and indicator panels. 
+
+2. Targets can be set at a Corporate (Business Unit), Project and Reporting Package level, allowing you to easily dig down into your project supply-chain to see where targets are and are not being met and who is responsible.
+
+3. To set your targets/thresholds, you will firstly need to decide if you want these to be set at a Business unit, Project or Reporting package level. Once you have decided, navigate to the dashboard at that level.
+
+4. On the dashboard, you should firstly click on the Sustainability issue panel your indicator is within. Clicking the issues panel will show all the indicators that are set up in that field.
+
+5. You then need to click on the indicator you wish to set a target for, to make sure it is only showing the performance data for that indicator in the graph below.
+
+6. At this stage, two boxes should appear below the table beneath the heading, “Set Target and Thresholds”
+
+7. You can then use the two boxes to input your indicator target and/or threshold
+
+Note: The tool will automatically pick up whether ‘good’ performance is being above or below the target value (i.e. do you want to be above a certain limit or stay below it). If the Red/Amber Threshold value is set higher than the Target value, then the Tool will automatically know that you want your project to have metric scores below the target vale. 
 
 ## Conversion Factors
 
+Conversion factors enable to calculate a metric from sub-metrics in a different unit e.g. 'scope 3 carbon emissions' in CO2e from the sub-metric 'non-hazardous waste' in tonnes.
+
+To add or edit multiple conversion factors, please contact charles.naud@actionsustainability.com
+
 ### Add conversion factors
+
+1. Go to your project home
+
+2. In the Admin menu, select 'Metrics'
+
+3. Click the settings icon on the same row as the sub-metric you wish to apply a conversion factor against. Click 'Add conversion factor'
+
+4. Specify the conversion factor to be applied for calculating one unit of the 'parent' metric from one unit of the sub-metric. Click 'Submit'
 
 ### Editing Conversion factors
 
+1. Go to your project home
+
+2. In the Admin menu, select 'Metrics'
+
+3. Click the settings icon on the same row as the sub-metric you wish to edit the conversion factor. Click 'Edit/show conversion factor'
+
+4. Modify the conversion factor to be applied for calculating one unit of the 'parent' metric from one unit of the sub-metric. Click 'Submit'
 
 ## Targets and Thresholds
 
 ### Setting Targets and Thresholds
 
+As a Client User, you can set targets and performance thresholds for your Project indicators. These inform the Red, Amber, Green rating you see on your Project’s Sustainability Issues and indicator panels. 
+
+Targets can be set at a Corporate (Business Unit), Project and Reporting Package level, allowing you to easily dig down into your project supply-chain to see where targets are and are not being met and who is responsible.
+
+To set your targets/thresholds, you will firstly need to decide if you want these to be set at a Business unit, Project or Reporting package level. Once you have decided, navigate to the dashboard at that level.
+
+1. On the dashboard, you should firstly click on the Sustainability issue panel your indicator is within. Clicking the issues panel will show all the indicators that are set up in that field.
+
+2. You then need to click on the indicator you wish to set a target for, to make sure it is only showing the performance data for that indicator in the graph below.
+
+3. At this stage, two boxes should appear below the table beneath the heading, “Set Target and Thresholds”
+
+4. You can then use the two boxes to input your indicator target and./or threshold
+
+Note: The tool will automatically pick up whether ‘good’ performance is being above or below the target value (i.e. do you want to be above a certain limit or stay below it). If the Red/Amber Threshold value is set higher than the Target value, then the Tool will automatically know that you want your project to have metric scores below the target vale
+
+
 ### Editing Targets & Thresholds
 
+TBC
 
 ## Templates
 
+TBC
+
 ### Creating templates
+
+TBC
 
 ### Using templates
 
+TBC
+
 ### Editing templates
+
+TBC
