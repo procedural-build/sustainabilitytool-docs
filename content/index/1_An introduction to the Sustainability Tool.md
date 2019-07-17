@@ -1,7 +1,7 @@
-#An introduction to the Sustainability Tool
+# An introduction to the Sustainability Tool
 
-##What is the Tool?
+## What is the Tool?
 
-##How does it work?
+## How does it work?
 
-##Who uses it?
+## Who uses it?
