@@ -1,8 +1,8 @@
-#General guidance
+# General guidance
 
-##How to get started
+## How to get started
 
-##Navigation
+## Navigation
 
 **User dashboard**
 
@@ -10,7 +10,7 @@
 
 **Top menu**
 
-##Key features and functionality
+## Key features and functionality
 
 **Metrics**
 
