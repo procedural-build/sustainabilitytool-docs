@@ -7,7 +7,8 @@ It is a static site generator, which reads Markdown files and turns them into HT
 
 # What is Markdown?
 [Primer on Markdown](https://cuttlebelle.com/documentation/content/#primer-on-markdown)
-There is a [template page](https://github.com/procedural-build/sustainabilitytool-docs/blob/master/content/blankPageTemplate/template.md), where you can see how markdown works.
+
+There is a [template page](/content/_blankPage/template.md), where you can see how markdown works.
 
 # Where Do I Find The Existing Documentation?
 
@@ -16,7 +17,7 @@ Everything else should not be touched unless you know what you are doing.
 
 # How Do I Add a New Documentation Page?
 
-Go to *content*
+Go to the [/content](https://github.com/procedural-build/sustainabilitytool-docs/tree/master/content) folder
 
 Adding a new page to the documentation is now straight forward:
 * New folder
