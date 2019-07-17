@@ -2,9 +2,24 @@
 
 ## How to get started
 
+Users will receive an email inviting them to join a company account on the Sustainability Tool. They should follow the simple steps outlined in the email, which includes opening a web link (https://uk.sustainabilitytool.com/accounts/register/), entering their contact details and then creating a password.
+
+Once registered, users are able to access their account by going to https://uk.sustainabilitytool.com/, clicking the ‘sign in’ button in the top right-hand side of the page, and entering their newly set sign-in details.
+
 ## Navigation
 
 ### User dashboard
+
+A user dashboard is a landing page from sign in that shows a user all of the reporting package and/or projects their account is linked to as well as 
+
+Once a user has logged in, they will land on their ‘user dashboard’ page. In the top table, they will be able to see a list of the projects and/or reporting packages they have been linked to. In the bottom table they can see a list of the company accounts they are a part of. 
+
+Users will have the option to review their inclusion in projects/reporting packages and company accounts they are linked with. To join either, users will have to accept the related invitations.
+
+
+
+To do this, they need to navigate to the row in the ‘Company / Project Invites’ table that says their Project’s name, click on the small cogs at the end of the rows, and then select ‘accept’ for each of their invitations. 
+
 
 ### Left hand menu
 
