@@ -105,6 +105,8 @@ Simply put, dashboards visualise performance data. Within the Tool, the followin
 
 The dashboards all conform to a standard template, making it easier for users to compare data across multiple levels and reports. Key features include:
 
+Note: Currently, is a user makes a change that will impact their dashbaord, they need to refresh their browser to see said changes to their dashboard. Better functionality is being explored to automate this process moving forwards. For now then, if your dashboard doesnt appear to be working please try refreshing the page. If it continues to not work, please contact XXXX@actionsustainability.com
+
 - Sustainability issue tiles (RAG rated)
 
 These are - TBC
