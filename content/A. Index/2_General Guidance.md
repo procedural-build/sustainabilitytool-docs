@@ -105,10 +105,27 @@ Simply put, dashboards visualise performance data. Within the Tool, the followin
 
 The dashboards all conform to a standard template, making it easier for users to compare data across multiple levels and reports. Key features include:
 
-- Sustainability tiles (RAG rated)
-- Issue tiles (RAG rated)
+- Sustainability issue tiles (RAG rated)
+
+These are - TBC
+
+- Indicator tiles (RAG rated)
+
+These are - TBC
+
 - Performance graphs
+
+As well as visualising data through the Issue and indicator tiles, users will be able to see graphs related to performance. These graphs are interactive, allowing user to see performance of all indicators within a singular issue, but also with an ability to filter in and out units on the x-axis as desired. In one click then, the user can flip between seeing full performance for a particular issue and then drill down into performance against a particular indicator.
+
+The graphs show both target and threshold lines agains the bar chart to easily visualise performance against requirements.
+
+Note: A key point is that the Y-axis of the peformance graph located on the dashboard automatically scales to the indicator values it is displaying. This is so that the user is able to see a meaningful differences / patterns and changes as they switch between indicators on the graph, rather than limiting its functionality to a fixed axis. 
+
+Query: On occasions the graphs may show figures that appear incorrect or impossible (i.e. +100%). This will likely be down to reporting error in the data. Please see the FAQs for guidance on this or cotanct XXX@actionssutainability.com for assitance. 
+
 - Performance tables
+
+These are - TBC
 
 ### Targets
 
