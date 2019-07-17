@@ -4,24 +4,24 @@
 
 ## Navigation
 
-**User dashboard**
+### User dashboard
 
-**Left hand menu**
+### Left hand menu
 
-**Top menu**
+### Top menu
 
 ## Key features and functionality
 
-**Metrics**
+### Metrics
 
-**Indicators**
+### Indicators
 
-**Conversion factors**
+### Conversion factors
 
-**Dashboards**
+### Dashboards
 
-**Targets**
+### Targets
 
-**Document upload**
+### Document upload
 
-**API**
+### API
