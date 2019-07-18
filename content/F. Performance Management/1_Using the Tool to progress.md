@@ -1,3 +1,3 @@
-# Using the Tool to Progress
+# [#](#-using-the-tool-to-progress) Using the Tool to Progress
 
-## Supply Chain Management School
+## [#](#-supply-chain-management-school) Supply Chain Management School

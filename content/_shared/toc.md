@@ -1,7 +1,12 @@
 ---
 layout: toc
 sections:
-  - index
-  - newpage
-  - technical
+  - A. Index
+  - Contacts
+  - E. API
+  - F. Performance Management
+  - FAQs
+  - Glossary
+  - Security
+  - User guidance
 ---

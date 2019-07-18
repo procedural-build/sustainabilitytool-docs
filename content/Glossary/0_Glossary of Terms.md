@@ -1,1 +1,1 @@
-# Text
+# [#](#-text) Text
