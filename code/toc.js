@@ -17,6 +17,8 @@ const TOC = ({sections, _pages, _ID, _relativeURL}) => {
 
             {
                 sections.map((section, i) => {
+                    // console.log('Sections', sections)
+                    // console.log('Pages', _pages)
                     let page = _pages[section];
                     return (
                         <nav key={i}
@@ -27,10 +29,11 @@ const TOC = ({sections, _pages, _ID, _relativeURL}) => {
                             <ul>
                                 {page.docs?
                                     page.docs.map((partial, i) => {
-                                        const sectionName = partial.replace('.md', '');
+                                        const sectionNameTOC = partial.replace('.md', '').replace(/[0-9]/g, '').replace(/_/g, '-').replace(' ', '-');
+                                        const sectionName = partial.replace('.md', '').replace(/[0-9]/g, '').replace(/_/g, '-').replace(/ /g, '-').replace(/\|/g, '').toLowerCase();
                                         return (
                                             <li key={i}>
-                                                <a href={`${_relativeURL(page._url, _ID)}/#${sectionName}`}>{CamelToTitle(sectionName.replace(/-/g, ' '))}</a>
+                                                <a href={`${_relativeURL(page._url, _ID)}/#${sectionName}`}>{CamelToTitle(sectionNameTOC.replace(/-/g, ' '))}</a>
                                             </li>
                                         );
                                     }): null
