@@ -1,14 +1,13 @@
-# How to use the Tool | Admin
+# [#](#-how-to-use-the-tool-\-admin) How to use the Tool | Admin
 
 ## Getting setup
 
-See reporting user section for guidance. 
 
-## Business units
+## [#](#-business-units) Business units
 
 Company admin users can create business units to manage sustainability performance for a subset of their organisation’s operations. A company account can have, directly below it, multiple business units and projects, which all contribute to the data in the company dashboard. In turn, business units can have other business units and projects within them. These will contribute to the data in the ‘parent’ business unit dashboard. Business unit dashboards only show data from other business units and projects that are below them. As such, users can use this functionality to manage performance for groups of projects at multiple levels within their organisation.
 
-### Create a business unit
+### [#](#-create-business-unit) Create business unit 
 
 1. Go to the company (or business unit) dashboard where the new business unit will feed into
 
@@ -24,7 +23,8 @@ Company admin users can create business units to manage sustainability performan
 
 To create a business unit within an existing business unit, go to the existing business unit’s dashboard and repeat steps 2 to 5.
 
-### Edit a business unit name
+
+### [#](#-edit-a-business-unit-name) Edit a business unit name
 
 1. Go to the business unit dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -34,11 +34,12 @@ To create a business unit within an existing business unit, go to the existing b
 
 4. Click ‘Submit’
 
-## Projects
+## [#](#-projects) Projects
 
 Needs writing
 
-### Create a project
+### [#](#-create-project) Create project
+     
 
 1. Go to the company (or business unit) dashboard where the new project unit will feed into
 
@@ -48,15 +49,16 @@ Needs writing
 
 4. Enter the project name and address if relevant
 
-5. Define the project settings: - Reporting from: defines the beginning of the first reporting period; when reporting should commence - Reporting to: defines the month after which reporting will cease e.g. by selecting the 10th December 2019, you are indicating that reporting should end in November 2019 - Every & Reporting Increments: define the frequency of the reporting periods e.g. "every 1 months" will generate a project with monthly reporting periods
+5. Define the project settings: - Reporting from: defines the beginning of the first reporting period; when reporting should commence - Reporting to: defines the month after which reporting will cease e.g. by selecting the 10th December 2019, you are indicating that reporting should end in November 2019 - Every & Reporting Increments: define the frequency of the reporting periods e.g. "every 1 months" will generate a project with monthly reporting periods     
 
 6. If using a template for the metrics and indicator settings, select appropriate template otherwise leave on "None"
 
 7. Click "Submit"
 
-### Edit project settings
+### [#](#-edit-project-settings) Edit project settings
 
-#### Name
+#### [#](#-name) Name
+     
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -66,7 +68,9 @@ Needs writing
 
 4. Click 'Submit'
 
-#### Reporting Start Date
+#### [#](#-reporting-start-date) Reporting Start Date
+
+     
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -78,7 +82,7 @@ Needs writing
 
 5. Repeat steps 3 and 4 until you the earliest reporting period corresponds to your desired reporting start data
 
-#### Reporting End Date
+#### [#](#-reporting-end-date) Reporting End Date     
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -90,7 +94,7 @@ Needs writing
 
 5. Click ‘Submit’
 
-#### Reporting Frequency
+#### [#](#-reporting-frequency) Reporting Frequency
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -102,11 +106,11 @@ Needs writing
 
 5. Click ‘Submit’
 
-## Reporting Packages
+## [#](#-reporting-packages) Reporting Packages
 
-To be written
+To be written     
 
-### Create reporting packages
+### [#](#-create-reporting-packages) Create reporting packages
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -118,7 +122,7 @@ To be written
 
 5. To create additional reporting packages within a project, repeat steps 1 to 4
 
-### Edit a reporting package
+### [#](#-edit-a-reporting-package) Edit a reporting package
 
 1. Go to the reporting package, by clicking on the relevant link in the left-hand menu
 
@@ -128,15 +132,15 @@ To be written
 
 4. Click 'Submit'
 
-### Set reporting package metrics
+### [#](#-set-reporting-package-metrics) Set reporting package metrics
 
 1. To create additional reporting packages within a project, repeat steps 1 to 4
 
-## Metrics
+## [#](#-metrics) Metrics
 
 Metrics correspond to the fields reporters will input data against in a project e.g. tonnes of waste recycled.
 
-### Create Metrics
+### [#](#-create-metrics) Create Metrics     
 
 It is recommended that users only create metrics at a 'Project level' and then add them to reporting packages using the template functionality. This process ensures data reported by users in their reporting packages correspond to metrics used to generate the indicators displayed in the project-level dashboards.
 
@@ -158,7 +162,8 @@ Users can create metrics at a 'reporting package' level but this approach is not
 
 * contact charles.naud@actionsustainability.com for additional dropdown options for sustainability issues and units.
 
-### Create Sub-metrics
+### [#](#-create-sub-metrics) Create sub-metrics
+     
 
 Sub-metrics are fields reporters will input data against that will aggregate into metrics. These are often used alongside conversion factors e.g. 'mains energy consumption' and 'mains gas consumption' may be sub-metrics of 'carbon scope 2 emissions' (with the relevant conversion factors applied).
 
@@ -178,9 +183,10 @@ Note 2: there may be several levels of sub-metrics e.g. 'domestic rail travel pa
 
 * if the unit of a sub-metric is different to that of its parent metric, a warning icon will appear to indicate that a conversion factor is required.
 
-### Editing Metrics
+### [#](#-editing-metrics) Editing Metrics
 
-**Required metrics**
+
+#### [#](#-required-metrics) Required metrics   
 
 1. Set metrics to 'required' to prevent reporters from submitting their data without inputting data against these fields.
 
@@ -192,9 +198,10 @@ Note 2: there may be several levels of sub-metrics e.g. 'domestic rail travel pa
 
 5. A red asterisk will indicate that the metric is 'required'
 
-**Set/edit frequency**
+##### [#](#-setedit-frequency) Set/edit frequency
 
 By default, reporters will be able to input data against for each metric for every reporting period. You can modify the frequency of a metric to a lesser frequency than the reporting period defined in the project settings e.g. reports are due monthly (this is the reporting period) but the metric 'floor area of project' is only due once.
+##### [#](#-add-conversion-factors) Add conversion factors
 
 1. Go to your project home
 
@@ -210,9 +217,11 @@ By default, reporters will be able to input data against for each metric for eve
 
 Note: the frequency a metric should be reported cannot be lesser than the reporting period, which is set in the project settings.
 
-**Enable document upload**
+##### [#](#-enable-document-upload) Enable document upload
 
 Allow reporters to upload documents to complement the data they input against a metric e.g. waste transfer notes
+##### [#](#-edit-conversion-factors) Edit conversion factors
+     
 
 1. Go to your project home
 
@@ -222,19 +231,19 @@ Allow reporters to upload documents to complement the data they input against a 
 
 4. Enter the Title and a description of the document you expect reporters to upload. Click 'Submit'. An integer in a bracket will indicate the document upload functionality is enabled for that metric
 
-## Indicators
+## [#](#-indicators) Indicators
 
 Gauges of performance that gives the user and understanding of how their project is performing in specific measures areas.
 
-### Create Indicators
+### [#](#-create-indicators) Create Indicators
 
 TBC
 
-### Editing Indicators
+### [#](#-editing-indicators) Editing Indicators
 
 TBC
 
-### Setting Targets
+### [#](#-setting-targets) Setting Targets
 
 1. As a Client User, you can set targets and performance thresholds for your Project indicators. These inform the Red, Amber, Green rating you see on your Project’s Sustainability Issues and indicator panels. 
 
@@ -252,13 +261,13 @@ TBC
 
 Note: The tool will automatically pick up whether ‘good’ performance is being above or below the target value (i.e. do you want to be above a certain limit or stay below it). If the Red/Amber Threshold value is set higher than the Target value, then the Tool will automatically know that you want your project to have metric scores below the target vale. 
 
-## Conversion Factors
+## [#](#-conversion-factors) Conversion Factors
 
 Conversion factors enable to calculate a metric from sub-metrics in a different unit e.g. 'scope 3 carbon emissions' in CO2e from the sub-metric 'non-hazardous waste' in tonnes.
 
 To add or edit multiple conversion factors, please contact charles.naud@actionsustainability.com
 
-### Add conversion factors
+### [#](#-adding-conversion-factors) Adding conversion factors
 
 1. Go to your project home
 
@@ -268,7 +277,7 @@ To add or edit multiple conversion factors, please contact charles.naud@actionsu
 
 4. Specify the conversion factor to be applied for calculating one unit of the 'parent' metric from one unit of the sub-metric. Click 'Submit'
 
-### Editing Conversion factors
+### [#](#-editing-conversion-factors) Editing Conversion factors
 
 1. Go to your project home
 
@@ -278,9 +287,9 @@ To add or edit multiple conversion factors, please contact charles.naud@actionsu
 
 4. Modify the conversion factor to be applied for calculating one unit of the 'parent' metric from one unit of the sub-metric. Click 'Submit'
 
-## Targets and Thresholds
+## [#](#-targets-and-thresholds) Targets and Thresholds
 
-### Setting Targets and Thresholds
+### [#](#-setting-targets-and-thresholds) Setting Targets and Thresholds
 
 As a Client User, you can set targets and performance thresholds for your Project indicators. These inform the Red, Amber, Green rating you see on your Project’s Sustainability Issues and indicator panels. 
 
@@ -299,22 +308,22 @@ To set your targets/thresholds, you will firstly need to decide if you want thes
 Note: The tool will automatically pick up whether ‘good’ performance is being above or below the target value (i.e. do you want to be above a certain limit or stay below it). If the Red/Amber Threshold value is set higher than the Target value, then the Tool will automatically know that you want your project to have metric scores below the target vale
 
 
-### Editing Targets & Thresholds
+### [#](#-editing-targets-and-thresholds) Editing Targets and Thresholds
 
 TBC
 
-## Templates
+## [#](#-templates) Templates
 
 TBC
 
-### Creating templates
+### [#](#-creating-templates) Creating templates
 
 TBC
 
-### Using templates
+### [#](#-using-templates) Using templates
 
 TBC
 
-### Editing templates
+### [#](#-editing-templates) Editing templates
 
 TBC

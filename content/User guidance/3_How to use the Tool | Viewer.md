@@ -1,16 +1,16 @@
-# How to use the Tool | Viewer
+# [#](#-how-to-use-the-tool-\-viewer) How to use the Tool | Viewer
 
 ## Getting setup
 
 See reporting user section for guidance
 
-## Viewing project members
+## [#](#-viewing-project-members) Viewing project members
 
 To be completed
 
 This lets the Client User see all the member accounts linked to the specific business unit, project or work package they are reviewing, as well as their authority (i.e. their responsibilities).
 
-**Add reporter**
+#### [#](#-add-reporter) Add reporter
 
 Go to your project dashboard by clicking on the relevant project in the left-hand menu.
 
@@ -22,11 +22,11 @@ Enter the user’s email address and select the relevant reporting package. Clic
 
 Repeat steps 3 and 4 to submit new invitations
 
-## Viewing performance
+## [#](#-viewing-performance) Viewing performance
 
 Depending on your access rights, as set by the Owner/Admin account, Reporting Users will be able to see varying granularity of both their own and project data through their User Dashboard. 
 
-### Dashboards
+### [#](#-dashboards) Dashboards
 
 Simply put, dashboards visualise performance data. Within the tool, the following dashboards are available (with access rights set by the Owner/Admin account):
 
@@ -48,7 +48,7 @@ o	Green = Performance target was exceeded for the latest reporting period.
 
 By clicking on an issue panel, the user is then given a sub-set of indicator panels that sit within that issue. These again are formatted to show performance as per the above, giving the user a detailed breakdown as to how they are performing in specific performance areas. 
 
-### Data
+### [#](#-data) Data
 
 To be written
 

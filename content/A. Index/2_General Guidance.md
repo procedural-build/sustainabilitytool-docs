@@ -1,16 +1,16 @@
-# General guidance
+# [#](#-general-guidance) General guidance
 
-## How to get started
+## [#](#-how-to-get-started) How to get started
 
 Users will receive an email inviting them to join a company account on the Sustainability Tool. They should follow the simple steps outlined in the email, which includes opening a web link (https://uk.sustainabilitytool.com/accounts/register/), entering their contact details and then creating a password.
 
 Once registered, users are able to access their account by going to https://uk.sustainabilitytool.com/, clicking the ‘sign in’ button in the top right-hand side of the page, and entering their newly set sign-in details.
 
-## Navigation
+## [#](#-navigation) Navigation
 
 Below are details and recommendations for how users should navigate around the Tool. 
 
-### User dashboard
+### [#](#-user-dashboard) User dashboard
 
 A user dashboard is a landing page from sign in that shows a user all of the reporting package and/or projects their account is linked to as well as 
 
@@ -22,7 +22,7 @@ Users will have the option to review their inclusion in projects/reporting packa
 
 To do this, they need to navigate to the row in the ‘Company / Project Invites’ table that says their Project’s name, click on the small cogs at the end of the rows, and then select ‘accept’ for each of their invitations. 
 
-### Left hand menu
+### [#](#-left-hand-menu) Left hand menu
 
 Reporting Users should use the left-hand bottom menu (below the title, ‘Business Units’) to access their dashboards and reporting packages.
 
@@ -35,15 +35,15 @@ The first step to reporting is to access your Project Package. This is done simp
 
 After selecting a package, the bottom-left-hand menu title will change from ‘Business Units’ to ‘Reporting Packages’. You can then go into your required reporting package by clicking the package name in this same menu (remember, reporting packages have the crossed tools icons).
 
-### Top menu
+### [#](#-top-menu) Top menu
 
 TBC
 
-## Key features and functionality
+## [#](#-key-features-and-functionality) Key features and functionality
 
 Below is a list of key features and functionality that all users should familiarise themselves with when starting out using the Tool.
 
-### Metrics
+### [#](#-metrics) Metrics
 
 Metrics correspond to the fields reporters will input data against in a project e.g. tonnes of waste recycled.
 
@@ -69,7 +69,7 @@ Users can create metrics at a 'reporting package' level but this approach is not
 
 - To create another metric, under the same sustainability issue, repeat steps 5 and 6 contact charles.naud@actionsustainability.com for additional dropdown options for sustainability issues and units.
 
-### Indicators
+### [#](#-indicators) Indicators
 
 These are used to gauge performance that gives the user and understanding of how their project is performing in specific fields.
 
@@ -87,13 +87,13 @@ Metric 2 = Total number of staff on a project
 Indicator 1 = % of staff who were unemployed before joining the project#
 
 
-### Conversion factors
+### [#](#-conversion-factors) Conversion factors
 
 Conversion factors enable to calculate a metric from sub-metrics in a different unit e.g. 'scope 3 carbon emissions' in CO2e from the sub-metric 'non-hazardous waste' in tonnes.
 
 Where required, the tool uses conversion factors to make sure that the metric figures are appropriate to the requirements of the indicator and reporting requirements of the project (i.e. Reporting users report total waste in KG, but the Client wants information in tonnes).
 
-### Dashboards
+### [#](#-dashboards) Dashboards
 
 Simply put, dashboards visualise performance data. Within the Tool, the following dashboards are available (with access rights set by the owner/admin account):
 
@@ -129,13 +129,13 @@ Query: On occasions the graphs may show figures that appear incorrect or impossi
 
 These are - TBC
 
-### Targets
+### [#](#-targets) Targets
 
 Targets and thresholds benchmark performance for your project against your reporting indicators. These inform the Red, Amber, Green ratings seen on a project’s sustainability and issue tiles. 
 
 Targets can be set at business unit, project and reporting package levels, allowing Users to easily dig down into a project's performance and supply-chain to see where targets are and are not being met and who is responsible.
 
-### Document upload
+### [#](#-document-upload) Document upload
 
 Allow reporters to upload documents to complement the data they input against a metric e.g. waste transfer notes
 
@@ -144,6 +144,6 @@ Allow reporters to upload documents to complement the data they input against a 
 - Click the settings icon on the same row as the metric you wish to enable the document upload for. Click 'Enable Document Upload'
 - Enter the Title and a description of the document you expect reporters to upload. Click 'Submit'. An integer in a bracket will indicate the document upload functionality is enabled for that metric
 
-### API
+### [#](#-api) API
 
 TO BE WRITTEN

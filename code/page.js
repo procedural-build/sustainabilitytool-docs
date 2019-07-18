@@ -22,7 +22,7 @@ const Page = ({ title, stylesheet, header, main, footer, navigation, script, _re
 	</head>
 	<body>
 		<div className="top">
-			< Header />
+			{/* < Header /> */}
 			<aside className="docs__nav">
 				{ navigation }
 			</aside>

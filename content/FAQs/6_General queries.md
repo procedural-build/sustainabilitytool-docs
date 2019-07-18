@@ -1,1 +1,1 @@
-# General queries
+# [#](#-general-queries) General queries

@@ -5,6 +5,7 @@ export class Header extends React.Component {
     render() {
         let { extraClass } = this.props;
         return (
+            // null
             <div className="navbar-area">
                 <nav
                     className={`navbar navbar-expand-lg navbar-light bg-light navbar-static-top ${extraClass}`}

@@ -1,13 +1,13 @@
-# How to use the Tool | Data approver
+# [#](#-how-to-use-the-tool-\-data-approver) How to use the Tool | Data approver
 
 ## Getting setup
 
 See reporting user section for guidance
 
-## Viewing submitted data
+## [#](#-viewing-submitted-data) Viewing submitted data
 
 To be written
 
-## Approving/Rejecting submitted data
+## [#](#-approvingrejecting-submitted-data) Approving/Rejecting submitted data
 
 To be written

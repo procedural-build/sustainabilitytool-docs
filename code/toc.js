@@ -1,7 +1,6 @@
 import React, {Fragment} from 'react';
 import PropTypes from 'prop-types';
 import { CamelToTitle } from "./utils";
-
 /**
  * The toc component
  */
@@ -10,6 +9,12 @@ const TOC = ({sections, _pages, _ID, _relativeURL}) => {
 
     return (
         <div className="toc">
+            <div className="tocLogo">
+            <a href="https://uk.sustainabilitytool.com/"><img className="tocLogoImg" src="../assets/images/logo.png"/></a>
+
+                <input className="tocLogoSearch" type="text" placeholder="Search.."/>
+            </div>
+
             {
                 sections.map((section, i) => {
                     let page = _pages[section];
