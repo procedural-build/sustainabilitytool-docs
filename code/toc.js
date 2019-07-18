@@ -7,6 +7,21 @@ import { CamelToTitle } from "./utils";
 const TOC = ({sections, _pages, _ID, _relativeURL}) => {
     const SentenceCase = (text) => text.charAt(0).toUpperCase() + text.slice(1);
 
+    function insertAndShift(arr, from, to) {
+        let cutOut = arr.splice(from, 1) [0]; // cut the element at index 'from'
+        arr.splice(to, 0, cutOut);            // insert it at index 'to'
+    }
+    let lengthSections = sections.length
+    for(let i=0;i<lengthSections;i++){
+        let indexElement = sections[i]
+        if(indexElement == 'index'){
+            let position = sections.indexOf(indexElement)
+            if(position !== 0){
+                insertAndShift(sections, position, 0 )
+            }
+        }
+    }
+
     return (
         <div className="toc">
             <div className="tocLogo">
@@ -16,8 +31,11 @@ const TOC = ({sections, _pages, _ID, _relativeURL}) => {
             </div>
 
             {
+
                 sections.map((section, i) => {
+                    // console.log('Sections', sections)
                     let page = _pages[section];
+                    
                     return (
                         <nav key={i}
                              className={`toc__section toc__section--${i}${page._url === _pages[_ID]._url ? ' toc__section--active' : ''}`}>
@@ -27,10 +45,11 @@ const TOC = ({sections, _pages, _ID, _relativeURL}) => {
                             <ul>
                                 {page.docs?
                                     page.docs.map((partial, i) => {
-                                        const sectionName = partial.replace('.md', '');
+                                        const sectionNameTOC = partial.replace('.md', '').replace(/[0-9]/g, '').replace(/_/g, '-').replace(' ', '-');
+                                        const sectionName = partial.replace('.md', '').replace(/[0-9]/g, '').replace(/_/g, '-').replace(/ /g, '-').replace(/\|/g, '').toLowerCase();
                                         return (
                                             <li key={i}>
-                                                <a href={`${_relativeURL(page._url, _ID)}/#${sectionName}`}>{CamelToTitle(sectionName.replace(/-/g, ' '))}</a>
+                                                <a href={`${_relativeURL(page._url, _ID)}/#${sectionName}`}>{CamelToTitle(sectionNameTOC.replace(/-/g, ' '))}</a>
                                             </li>
                                         );
                                     }): null
