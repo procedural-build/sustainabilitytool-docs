@@ -27,7 +27,7 @@ const TOC = ({sections, _pages, _ID, _relativeURL}) => {
             <div className="tocLogo">
             <a href="https://uk.sustainabilitytool.com/"><img className="tocLogoImg" src="../assets/images/logo.png"/></a>
 
-                <input className="tocLogoSearch" type="text" placeholder="Search.."/>
+                {/* <input className="tocLogoSearch" type="text" placeholder="Search.."/> */}
             </div>
 
             {
