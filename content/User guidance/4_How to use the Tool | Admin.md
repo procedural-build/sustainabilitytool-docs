@@ -80,7 +80,7 @@ Needs writing
 
 4. Click on the settings icon and delete
 
-5. Repeat steps 3 and 4 until you the earliest reporting period corresponds to your desired reporting start data
+5. Repeat steps 3 and 4 until you have the earliest reporting period that corresponds to your desired reporting start date
 
 #### [#](#-reporting-end-date) Reporting End Date     
 
@@ -90,7 +90,7 @@ Needs writing
 
 3. Under the Reporting Periods table, click on 'Edit Reporting Duration'
 
-4. Modify the Reporting to field
+4. Modify the Reporting to field to your end date required
 
 5. Click ‘Submit’
 
