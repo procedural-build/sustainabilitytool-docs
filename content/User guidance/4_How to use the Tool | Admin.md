@@ -222,7 +222,7 @@ Note: the frequency a metric should be reported cannot be lesser than the report
 
 There are two options for deleting metrics within reporting packages. Option 2 is a faster method for if you have a lot of metrics and a lot of reporting packages.
 
-##### Option 1 
+#####     Option 1 
 The first option requires you to delete the metrics that you do not want, leaving those that you do want to keep remaining.
 An important point to note is that if you do not want the metric or any of the sub metrics, you can delete the metric. This will remove all sub metrics. However if you want to keep only one sub metric and delete all of the other sub metrics, you must individually delete all sub metrics you do not want, leaving the sub metric that you do want.
 
@@ -232,8 +232,7 @@ An important point to note is that if you do not want the metric or any of the s
 
 3. Click the settings icon on the same row as the metric you wish to delete. Click 'Delete'
 
-
-##### Option 2
+#####      Option 2
 The second option is to save the metrics that you want to keep, and delete those you do not want, as a template. This template can then be applied to the reporting packages that you want to change the metrics for.
 
 1. Go to your project home
@@ -259,7 +258,6 @@ The second option is to save the metrics that you want to keep, and delete those
 11. To transfer all of the metrics from your template over to 'Current metrics, you need to select 'Add' for each metric.
 
 12. In the Admin menu, select 'Metrics', you will see that all of your metrics have been updated. 
-
 
 ##### [#](#-enable-document-upload) Enable document upload
 
