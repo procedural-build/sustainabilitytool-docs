@@ -217,6 +217,50 @@ By default, reporters will be able to input data against for each metric for eve
 
 Note: the frequency a metric should be reported cannot be lesser than the reporting period, which is set in the project settings.
 
+
+### [#](#-delete-metrics) Delete Metrics  
+
+There are two options for deleting metrics within reporting packages. Option 2 is a faster method for if you have a lot of metrics and a lot of reporting packages.
+
+##### Option 1 
+The first option requires you to delete the metrics that you do not want, leaving those that you do want to keep remaining.
+An important point to note is that if you do not want the metric or any of the sub metrics, you can delete the metric. This will remove all sub metrics. However if you want to keep only one sub metric and delete all of the other sub metrics, you must individually delete all sub metrics you do not want, leaving the sub metric that you do want.
+
+1. Go to your reporting package
+
+2. In the Admin menu, select 'Metrics'
+
+3. Click the settings icon on the same row as the metric you wish to delete. Click 'Delete'
+
+
+##### Option 2
+The second option is to save the metrics that you want to keep, and delete those you do not want, as a template. This template can then be applied to the reporting packages that you want to change the metrics for.
+
+1. Go to your project home
+
+2. Delete the metrics that you no longer require, using the steps in Option 1. 
+
+3. In the Admin menu, select 'Settings'
+
+4. In the 'Project details' section, give your template a name
+
+5. In the 'Template settings' section, tick the box to confirm that you want to set it as a template
+
+6. Now go to the reporting package that you want to apply this template to
+
+7. In the Admin menu, select 'Metrics'
+
+8. Delete all metrics, using the metric to delete multiple sub-metrics in one go
+
+9. In the 'Set up metrics' in the right hand corner, select 'Add from template'
+
+10. Select the name of the template that you have created from the template dropdown list
+
+11. To transfer all of the metrics from your template over to 'Current metrics, you need to select 'Add' for each metric.
+
+12. In the Admin menu, select 'Metrics', you will see that all of your metrics have been updated. 
+
+
 ##### [#](#-enable-document-upload) Enable document upload
 
 Allow reporters to upload documents to complement the data they input against a metric e.g. waste transfer notes
