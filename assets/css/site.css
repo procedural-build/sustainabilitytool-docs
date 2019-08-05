@@ -8,14 +8,13 @@ html {
 		font-size: 1.5em;
 	}
 
-
 	.body__divider{
 		display: flex; 
 		flex-direction: column; 
 		flex-wrap: wrap; 
 		align-content: flex-start;
 		margin: 2em 15em 2em 13em;
-		/* margin-right: 4em; */
+		/* margin-left: 0px; */
 	}
 
 	.body__divider p{
@@ -110,11 +109,13 @@ html {
 		/* margin: 1em 1em 1em 1em; */
 		font-family: Helvetica sans-serif,Arial,sans-serif;
 		line-height: 2.0;
-		width: 20%;
+		/* width: 20%; */   /* This breaks zoom functionality, but improves design */
 		/* padding-top: 1em;  */
 		background-color: #4f4e4e;
 		min-height: 100%;
 		position: absolute;
+		box-sizing: border-box;
+		/* margin-left: 10px; */
 	}
 
 	.toc a{
@@ -257,16 +258,12 @@ html {
 		flex-direction: column; 
 		flex-wrap: wrap; 
 		align-content: flex-start;
-		/* float: left; */
-		/* margin: 1em 1em 1em 1em; */
 		font-family: Helvetica,Arial,sans-serif;
 		line-height: 1.5;
 		width: 25%;
-		/* padding-top: 1em;  */
 		background-color: #4f4e4e;
 		position: absolute;
 		min-height: 100%;
-		/* text-align: left; */
 	}
 
 	.toc a{
@@ -312,16 +309,6 @@ html {
 }
 
 
-/* .body__divider{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-content: flex-start;
-	margin: 2em 3em 2em;
-	padding-left: 4em;
-
-} */
-
 body {
 	margin: 0;
 	-ms-text-size-adjust: 100%;
@@ -329,13 +316,11 @@ body {
 	line-height: 1.1;
 	font-family: Helvetica, sans-serif;
 	color: #313131;
-}
-
-body {
 	display: grid;
 	min-height: 100%;
 	grid-template-rows: 1fr auto;
 }
+
 
 main {
 	padding: 1rem;
