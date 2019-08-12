@@ -18,15 +18,13 @@ Once a user has logged in, they will land on their ‘user dashboard’ page. In
 
 Users will have the option to review their inclusion in projects/reporting packages and company accounts they are linked with. To join either, users will have to accept the related invitations.
 
-
-
 To do this, they need to navigate to the row in the ‘Company / Project Invites’ table that says their Project’s name, click on the small cogs at the end of the rows, and then select ‘accept’ for each of their invitations. 
 
 ### [#](#-left-hand-menu) Left hand menu
 
-Users should use the left-hand bottom menu (below the title, ‘Business Units’) to access their dashboards and reporting packages.
+Users should use the left-hand bottom menu (below the title, ‘business units’) to access their dashboards and reporting packages.
 
-Please Note: There are different icons used in this menu to show the structure of a Company Project. Not all users will be able to see each level, but for reference:
+Please Note: There are different icons used in this menu to show the structure of a company project. Not all users will be able to see each level, but for reference:
 
 - The Stacked office icon = Business Unit Names
 - The Crossed Tools = Project Package Names
@@ -57,7 +55,7 @@ These are a standard of measurement by which reporting organisations can input i
 
 There are over 300 standardised metrics for a User to choose from, with then a further option to create non-standard metrics as required. Users can choose as many or as few as they require at the project set up stage.
 
-It is recommended that users only create metrics at a 'Project level' and then add them to reporting packages using the template functionality. This process ensures data reported by users in their reporting packages correspond to metrics used to generate the indicators displayed in the project-level dashboards.
+It is recommended that users only create metrics at a 'project level' and then add them to reporting packages using the template functionality. This process ensures data reported by users in their reporting packages correspond to metrics used to generate the indicators displayed in the project-level dashboards.
 
 Users can create metrics at a 'reporting package' level but this approach is not recommended.
 
@@ -87,17 +85,17 @@ In the Tool, indicators are informed by the data reported through the selected m
 
 (Metric 1 / Metric 2) x 100 = Indicator 1
 
-Metric 1 = Total number of staff who were previously unemployed before project on the project.
-Metric 2 = Total number of staff on a project
+- Metric 1 = Total number of staff who were previously unemployed before project on the project.
+- Metric 2 = Total number of staff on a project
 
-Indicator 1 = % of staff who were unemployed before joining the project#
+- Indicator 1 = % of staff who were unemployed before joining the project#
 
 
 ### [#](#-conversion-factors) Conversion factors
 
 Conversion factors enable to calculate a metric from sub-metrics in a different unit e.g. 'scope 3 carbon emissions' in CO2e from the sub-metric 'non-hazardous waste' in tonnes.
 
-Where required, the tool uses conversion factors to make sure that the metric figures are appropriate to the requirements of the indicator and reporting requirements of the project (i.e. Reporting users report total waste in KG, but the Client wants information in tonnes).
+Where required, the tool uses conversion factors to make sure that the metric figures are appropriate to the requirements of the indicator and reporting requirements of the project (i.e. reporting users report total waste in KG, but the client wants information in tonnes).
 
 ### [#](#-dashboards) Dashboards
 
@@ -109,19 +107,44 @@ Simply put, dashboards visualise performance data. Within the Tool, the followin
 
 •	Business unit dashboard: Visualises a collated representation of all the reported performance data from the project packages that sit within a business unit.
 
+**Note**: Currently, if a user makes a change that will impact their dashbaord, they need to refresh their browser to see said changes reflected in their dashboard. Better functionality is being explored to automate this process moving forwards. For now, if your dashboard doesnt appear to be working please try refreshing the page. If this does not resolve the issue, please contact charles.naud@actionsustainability.com
+
 The dashboards all conform to a standard template, making it easier for users to compare data across multiple levels and reports. Key features include:
 
-Note: Currently, is a user makes a change that will impact their dashbaord, they need to refresh their browser to see said changes to their dashboard. Better functionality is being explored to automate this process moving forwards. For now then, if your dashboard doesnt appear to be working please try refreshing the page. If it continues to not work, please contact XXXX@actionsustainability.com
+- **Sustainability issue tiles (RAG rated)**
 
-- Sustainability issue tiles (RAG rated)
+The sustainability issue tiles are the starting point of your dashboard. Each tile relates to a specific sustainability issue that can be tracked within the Tool. There are 13 of these overarching fields within the Tool but please be aware that you will only be able to see a tile if you are reporting against it. This is too keep dashboards as clear and concise as possible.
 
-These are - TBC
+Each sustainability issue will have one or multiple indicators feeding into it. 
 
-- Indicator tiles (RAG rated)
+For example:
+- Sustainability Issue = Community
+-- Indicators feeding into it could be:
+--- Number of community engagement activities.
+--- Number of people reached through engagement activities.
+--- Working hours lost because of complaints.
 
-These are - TBC
+In line with the performance feeding into each sustainability tile, users will be able to see each panel has traffic light colour attached to it. This is because each tile is RAG rated in performance. These are defined as follows:
 
-- Performance graphs
+- Red: Performance is below the targets set for indicators within that issue area.
+- Amber: Performance is within the target and threshold levels set for indicator within that issue area.
+- Green: Performance is above the targets set for indicators within that issue area.
+- Grey: No targets have been set and/or no/not enough data has been reported to formulate a performance rating within that issue.
+
+**FURTHER TEXT TBC**
+
+- **Indicator tiles (RAG rated)**
+
+Indicator tiles visualise your performance against a particular indicator. As with the sustainabiliy issue tiles these are RAG rated as below:
+
+- Red: Performance is below the targets set for that indicator.
+- Amber: Performance is within the target and threshold levels set for that indicator.
+- Green: Performance is above the targets set for that indicator.
+- Grey: No targets have been set and/or no/not enough data has been reported to formulate a performance rating for that indicator.
+
+By clicking on the indicator tile you are interested in, you open up a specific performance graph for that issue as well as performanc data tables for said indicator (i.e. numeric data).
+
+- **Performance graphs**
 
 As well as visualising data through the Issue and indicator tiles, users will be able to see graphs related to performance. These graphs are interactive, allowing user to see performance of all indicators within a singular issue, but also with an ability to filter in and out units on the x-axis as desired. In one click then, the user can flip between seeing full performance for a particular issue and then drill down into performance against a particular indicator.
 
