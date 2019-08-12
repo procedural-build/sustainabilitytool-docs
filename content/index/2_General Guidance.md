@@ -24,20 +24,26 @@ To do this, they need to navigate to the row in the ‘Company / Project Invites
 
 ### [#](#-left-hand-menu) Left hand menu
 
-Reporting Users should use the left-hand bottom menu (below the title, ‘Business Units’) to access their dashboards and reporting packages.
+Users should use the left-hand bottom menu (below the title, ‘Business Units’) to access their dashboards and reporting packages.
 
 Please Note: There are different icons used in this menu to show the structure of a Company Project. Not all users will be able to see each level, but for reference:
 
 - The Stacked office icon = Business Unit Names
 - The Crossed Tools = Project Package Names
 
-The first step to reporting is to access your Project Package. This is done simply by clicking the Project Package name in the bottom-left-hand-menu.
+The first step to reporting is to access your project package. This is done simply by clicking the project package name in the bottom-left-hand-menu.
 
-After selecting a package, the bottom-left-hand menu title will change from ‘Business Units’ to ‘Reporting Packages’. You can then go into your required reporting package by clicking the package name in this same menu (remember, reporting packages have the crossed tools icons).
+After selecting a package, the bottom-left-hand menu title will change from ‘business units’ to ‘reporting packages’. You can then go into your required reporting package by clicking the package name in this same menu (remember, reporting packages have the crossed tools icons).
 
 ### [#](#-top-menu) Top menu
 
-TBC
+The top navigation menu is a cset of three headers seen at the top right of your browser page.
+
+These are currently set as the following:
+
+1. Company: The drop down menu at a company, business unit and project levels allows you to navigate back to the home screen and view the members invovled with the package at that level (including roles + responsibilities). At reporting pacakge level this drop down changes to allow users to 'access dashboard', 'reports due' and 'reports submitted' pages.  
+2. Admin: This is your administrative area for the package level you are at. Where relevant, this includes viewing your package setup (metrics, indicators, coversion factors), settings options and your email control area (statistics and settings).
+3. User: From here a user can navigate back to their companies and projects dashboard, and can also log in and out of the Tool.
 
 ## [#](#-key-features-and-functionality) Key features and functionality
 
