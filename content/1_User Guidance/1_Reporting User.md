@@ -1,6 +1,6 @@
 # [#](#-how-to-use-the-tool--reporting-user) How to use the Tool | Reporting User
 
-## The role of the reporter
+## The role of a reporter
 
 The main role of a reporter is to enter their company’s sustainability performance data into the tool. 
 
