@@ -1,4 +1,4 @@
-# [#](#-an-introduction-to-the-sustainability-tool) An introduction to the Sustainability Tool
+# [#](#-an-introduction-to-the-sustainability-tool) An Introduction to the Sustainability Tool
 
 ## [#](#-what-is-the-tool) What is the Tool?
 
