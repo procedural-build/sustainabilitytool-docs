@@ -1,5 +1,11 @@
 # [#](#-how-to-use-the-tool-\-viewer) How to use the Tool | Viewer
 
+## The role of a data viewer
+
+A data viewer is a user within the main company who wishes to see the dashboard and performance against targets. This will likely be an individual within the main company who is not involved with sustainability performance reporting, but who wants to see project performance, such as a director. 
+
+Data viewers will not have access to submitted reporting packages and will not be able to edit any business units, projects, reporting packages, metrics or indicators. They will only be able to view the submitted and approved data, in the form of project dashboards and performance data against targets. 
+
 ## Getting setup
 
 See reporting user section for guidance
