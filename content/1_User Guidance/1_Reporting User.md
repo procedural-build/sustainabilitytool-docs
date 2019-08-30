@@ -1,5 +1,17 @@
 # [#](#-how-to-use-the-tool--reporting-user) How to use the Tool | Reporting User
 
+## What is a reporter?
+
+The main role of a reporter is to enter their company’s sustainability performance data into the tool. 
+
+The reporter will likely be an individual within a Tier 1/2/3 supplier and will report their data via reporting packages set at pre-arranged intervals, often monthly. 
+
+The reporter will be required to input quantitative data, against specified metrics. The reporter may also add comments and/or upload evidence documents. A reporter can only ever report data for their specified reporting package(s); they can see dashboards for their reporting package and, subject to permission, may have access to the project, supplier or client dashboards above. 
+
+Within a project or supplier, several reporters can be assigned to multiple reporting packages. This can help to spread the reporting load across individuals within an organisation or project. Alternatively, reporting can also be automatically carried out by data collection software applications via the Sustainability Tool API. 
+
+Once reported, the data will be approved or rejected by the Approver user and, once it is approved, will feed into the sustainability performance dashboards.
+
 ## Getting setup
 
 ##### [#](#-tool-registration-and-log-in) Tool Registration and log in
