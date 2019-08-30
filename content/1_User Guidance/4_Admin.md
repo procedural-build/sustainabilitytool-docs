@@ -1,5 +1,18 @@
 # [#](#-how-to-use-the-tool-\-admin) How to use the Tool | Admin
 
+## The role of an admin
+
+There will be approximately four to five admins per client account. The admins will be individuals who are highly involved in the company’s sustainability performance and working with Action Sustainability during the configuration-phase of the Tool, for example: sustainability managers, procurement managers or environmental managers. 
+
+An admin has the highest level of authority within the Tool. 
+They have the highest level of editorial authority and are able to create, make changes to the settings of and delete the following: 
+-	business units, projects and reporting packages;
+-	other users;
+-	 metrics and indicators;
+-	targets and thresholds.
+
+Admins also have the highest level of viewing authority. They view all business units, projects and reporting packages they are set up in. They see all reports submitted and have the ability to approve or reject reports. As they can see all project dashboards, they see all sustainability measurement data, progress against targets and the RAG (Red, Amber, Green) status of all indicators. They also see the status of reporting packages (Approved, Pending Approval, Requires Revision or Nothing Received). Admins can see the names of all individuals involved, what level of authority they have and what project or reporting package they are associated with. 
+
 ## Getting setup
 
 
