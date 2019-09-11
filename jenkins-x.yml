@@ -8,7 +8,7 @@ pipelineConfig:
         - command: npm install
         - command: node --experimental-modules code/updateIndex.mjs
         - command: node --experimental-modules code/updateTOC.mjs
-        - command: cuttlebelle
+        - command: npm run build
       promote:
         steps:
         - command: if (BRANCH_NAME == 'master') {S3_BUNDLE_PATH = 'docs.sustainabilitytool.com/stable/'} else {S3_BUNDLE_PATH = 'docs.sustainabilitytool.com/latest/'}
