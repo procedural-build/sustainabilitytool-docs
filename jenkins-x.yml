@@ -11,8 +11,5 @@ pipelineConfig:
         - command: npm run build
       promote:
         steps:
-        - command: if (BRANCH_NAME == 'master') {export S3_BUNDLE_PATH='docs.sustainabilitytool.com/stable/'} else {export S3_BUNDLE_PATH='docs.sustainabilitytool.com/latest/'}
+        - command: if [ "$BRANCH_NAME" == 'master' ]; then export S3_BUNDLE_PATH='docs.sustainabilitytool.com/stable/'; else export S3_BUNDLE_PATH='docs.sustainabilitytool.com/latest/'; fi
         - command: echo S3_BUNDLE_PATH
-
-
-
