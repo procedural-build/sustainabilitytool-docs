@@ -12,4 +12,5 @@ pipelineConfig:
       promote:
         steps:
         - command: if [ "$BRANCH_NAME" == 'master' ]; then export S3_BUNDLE_PATH='docs.sustainabilitytool.com/stable/'; else export S3_BUNDLE_PATH='docs.sustainabilitytool.com/latest/'; fi
-        - command: echo S3_BUNDLE_PATH
+        - command: echo "Uploading files to ${S3_BUNDLE_PATH}"
+        - command: jx step stash -c bundles -p site/ -t "$S3_BUNDLE_PATH" --bucket-url s3://procedural-frontend-bundles --verbose
