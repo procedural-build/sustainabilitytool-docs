@@ -1,5 +1,12 @@
 buildPack: javascript
 pipelineConfig:
+  env:
+  - name: AWS_S3_REGION_NAME
+    value: eu-west-2
+  - name: AWS_S3_HOST
+    value: s3.eu-west-2.amazonaws.com
+  - name: AWS_S3_USE_SSL
+    value: 'true'
   pipelines:
     release:
       build:
@@ -11,6 +18,4 @@ pipelineConfig:
         - command: npm run build
       promote:
         steps:
-        - command: if [ "$BRANCH_NAME" == 'master' ]; then export S3_BUNDLE_PATH='docs.sustainabilitytool.com/stable/'; else export S3_BUNDLE_PATH='docs.sustainabilitytool.com/latest/'; fi
-        - command: echo "Uploading files to ${S3_BUNDLE_PATH}"
-        - command: jx step stash -c bundles -p site/ -t "$S3_BUNDLE_PATH" --bucket-url s3://procedural-frontend-bundles --verbose
+          - command: /bin/bash /builder/home/deploy_s3.sh
