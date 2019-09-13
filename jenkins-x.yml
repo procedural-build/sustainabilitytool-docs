@@ -3,6 +3,8 @@ pipelineConfig:
   env:
   - name: AWS_S3_REGION_NAME
     value: eu-west-2
+  - name: AWS_DEFAULT_REGION
+    value: eu-west-2
   - name: AWS_S3_HOST
     value: s3.eu-west-2.amazonaws.com
   - name: AWS_S3_USE_SSL
