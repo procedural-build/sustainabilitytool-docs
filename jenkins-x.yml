@@ -18,5 +18,4 @@ pipelineConfig:
         - command: npm run build
       promote:
         steps:
-          - command: ls /workspace/source
           - command: /bin/bash /workspace/source/deploy_s3.sh
