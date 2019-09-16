@@ -55,6 +55,6 @@ The performance tables collect and visualise all data that has been entered into
 
 Therefore if a table is showing three months of data but said data is not on the performance graph, it will likely mean that your data hasnt been accepted and/or data may have been reviewed and rejected. You can check the status of your submitted reports on the 'reports submitted' page, accessible through the top navigation menu.
 
-**The units on my performance graph are 
+**What is the difference between the two tables on the dashboards?**  
 
 
