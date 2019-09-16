@@ -37,6 +37,18 @@ Your reported data will only be seen within the Tool once it has been accepted i
 
 Data that has been submitted but not accepted is shown in the performance table at the bottom of a dashboard. This data is still visible once accepted, but it is the only place on the dashboard where non-accepted data is visible and accounted for. 
 
-## [#](#-Reporting-Data) Reviewing Performance. 
+## [#](#-Reporting-Data) Reviewing Performance
 
+**Why are some of my issue and indicator tiles grey?**
 
+The Sustainability Tool uses RAG rating to denote performance against targets and thresholds (red: below target+threshold, amber: between target and threshold, green: above target).
+
+A grey tile is shown for two reasons:
+1. That issue or indicator has no target set against it and therefore no descernible performance.
+2. The metric data required to calculate the indicator has not been reported and therefore no performance can be measured.
+
+If you believe an indicator has complete data and targets set for it, but it is still showing as grey, please contact charles.naud@actionsustainability.com
+
+**What is the difference between a sustainability issue and a sustainability indicator?**
+
+Sustainability indicator tiles 
