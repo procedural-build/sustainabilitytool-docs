@@ -50,4 +50,11 @@ Performance against an indicator is calculated by reported metrics, whereas the 
 
 Metrics --> Indicator --> Sustainability Issues
 
+**Why can i see data in my performance table but not on the performance graph?**  
+The performance tables collect and visualise all data that has been entered into the Tool (for that particular level and indicator) whereas graphs only display data that has been accepted by an approver.
+
+Therefore if a table is showing three months of data but said data is not on the performance graph, it will likely mean that your data hasnt been accepted and/or data may have been reviewed and rejected. You can check the status of your submitted reports on the 'reports submitted' page, accessible through the top navigation menu.
+
+**The units on my performance graph are 
+
 
