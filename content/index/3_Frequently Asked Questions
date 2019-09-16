@@ -26,4 +26,11 @@ If you have entered incorrect data incorrectly, please email your data approver.
 For any altered data, please leave a comment next to the changed metrics to note what has changed and why.
 
 **Why can't i see my reported data on the dashboard and graphs?**
-Reported data is only visible 
+Your reported data will only be seen within the Tool once it has been accepted in the following areas:
+- Issue and Indicator Tiles
+- Performance Graphs
+
+Data that has been submitted but not accepted is shown in the performance table at the bottom of a dashboard. This data is still visible once accepted, but it is the only place on the dashboard where non-accepted data is visible and accounted for. 
+
+## [#](#-Reporting-Data) Reviewing Performance. 
+
