@@ -1,1 +1,0 @@
-# [#](#-for-admins) For admins
