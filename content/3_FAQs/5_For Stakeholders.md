@@ -1,1 +1,0 @@
-# [#](#-for-stakeholders) For stakeholders
