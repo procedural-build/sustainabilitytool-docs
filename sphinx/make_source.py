@@ -105,3 +105,5 @@ if __name__ == "__main__":
         # Write the file
         with open(dest_file_path, 'w') as f:
             f.write(rst_string)
+
+    # Finally copy the assetts into _static

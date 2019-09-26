@@ -54,7 +54,7 @@ o	Green = Performance target was exceeded for the latest reporting period.
 
 By clicking on an issue panel, the user is then given a sub-set of indicator panels that sit within that issue. These again are formatted to show performance as per the above, giving the user a detailed breakdown as to how they are performing in specific performance areas.
 
-### [#](#-data) Data
+###  Data
 
 To be written
 

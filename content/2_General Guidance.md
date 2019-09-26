@@ -1,12 +1,12 @@
-# [#](#-general-guidance) General guidance
+#  General guidance
 
-## [#](#-how-to-get-started) Getting Started
+##  Getting Started
 
 Users will receive an email inviting them to join a company account on the Sustainability Tool. They should follow the simple steps outlined in the email, which includes opening a web link (https://uk.sustainabilitytool.com/accounts/register/), entering their contact details and then creating a password for their account.
 
 Once registered, users are able to access their account by going to https://uk.sustainabilitytool.com/, clicking the ‘sign in’ button in the top right-hand side of the page, and entering their newly set sign-in details.
 
-## [#](#-navigation) Navigation
+##  Navigation
 
 The Sustainability Tool has two navigational menus:
 
@@ -14,7 +14,7 @@ The Sustainability Tool has two navigational menus:
 - **Top Menu:** Used for moving between different actions/activities available within the Tool, including management of a user's account.
 
 
-## [#](#-key-features-and-functionality) Key features
+##  Key features
 
 Some of the key features that all users should familiarise themselves with when starting out using the Tool are listed below. These have been grouped by type:
 
@@ -32,7 +32,7 @@ Some of the key features that all users should familiarise themselves with when 
 - **Performance Tables:** Show the reported numerical data being used to measure performance against targeted indicators within the Sustainability Tool for a company project. 
 - **Reports Submitted:** A landing page showing a comprehensive list of all the reports submitted within a reporting package. Users can view individual reports to see the specific data entered. 
 
-## [#](#-key-functionality) Key functionality
+##  Key functionality
 
 Some of the key functions/acttions that all users should familiarise themselves with when starting out using the Tool are listed below. These have been grouped by type:
 

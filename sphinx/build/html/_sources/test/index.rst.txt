@@ -1,11 +1,11 @@
 
-`# <#-sustainability-tool-documentation>`_ Sustainability Tool User Guide
-=============================================================================
+Sustainability Tool User Guide
+==============================
 
 
 .. raw:: html
 
-   <!-- The line '[#](#-sustainability-tool-documentation)' is an internal link, used to navigate or link to sections within docs -->
+   <!-- The line '' is an internal link, used to navigate or link to sections within docs -->
 
 
 
@@ -16,11 +16,11 @@
 
 
 
-`# <#-an-introduction-to-the-sustainability-tool>`_ An Introduction to the Sustainability Tool
-==================================================================================================
+An Introduction to the Sustainability Tool
+==========================================
 
-`# <#-what-is-the-tool>`_ What is the Tool?
------------------------------------------------
+What is the Tool?
+-----------------
 
 The Sustainability Tool is a cloud-based sustainability performance reporting system, which has been specifically designed to be used for supply chain management. It enables you to collect, report & analyse social & environmental sustainability performance using smart dashboards at project, business unit and corporate levels.
 
@@ -30,8 +30,8 @@ The Sustainability Tool is a cloud-based sustainability performance reporting sy
    :alt: alt
 
 
-`# <#-who-uses-it>`_ Who uses it?
--------------------------------------
+Who uses it?
+------------
 
 The Tool is built for those who are interested in better understanding how they are performing against key sustainability targets, with a strength in mapping this for supply-chains. Users of the tool will include:
 
@@ -52,18 +52,18 @@ The Tool is built for those who are interested in better understanding how they 
   Suppliers and more
 
 
-`# <#-general-guidance>`_ General guidance
-==============================================
+General guidance
+================
 
-`# <#-how-to-get-started>`_ Getting Started
------------------------------------------------
+Getting Started
+---------------
 
 Users will receive an email inviting them to join a company account on the Sustainability Tool. They should follow the simple steps outlined in the email, which includes opening a web link (https://uk.sustainabilitytool.com/accounts/register/), entering their contact details and then creating a password for their account.
 
 Once registered, users are able to access their account by going to https://uk.sustainabilitytool.com/, clicking the ‘sign in’ button in the top right-hand side of the page, and entering their newly set sign-in details.
 
-`# <#-navigation>`_ Navigation
-----------------------------------
+Navigation
+----------
 
 The Sustainability Tool has two navigational menus:
 
@@ -74,8 +74,8 @@ The Sustainability Tool has two navigational menus:
 * 
   **Top Menu:** Used for moving between different actions/activities available within the Tool, including management of a user's account.
 
-`# <#-key-features-and-functionality>`_ Key features
---------------------------------------------------------
+Key features
+------------
 
 Some of the key features that all users should familiarise themselves with when starting out using the Tool are listed below. These have been grouped by type:
 
@@ -115,8 +115,8 @@ Some of the key features that all users should familiarise themselves with when 
 * 
   **Reports Submitted:** A landing page showing a comprehensive list of all the reports submitted within a reporting package. Users can view individual reports to see the specific data entered. 
 
-`# <#-key-functionality>`_ Key functionality
-------------------------------------------------
+Key functionality
+-----------------
 
 Some of the key functions/acttions that all users should familiarise themselves with when starting out using the Tool are listed below. These have been grouped by type:
 
@@ -133,11 +133,11 @@ Some of the key functions/acttions that all users should familiarise themselves 
   **API:** A software intermediary system that allows Users to pull data for reporting into the Sustainability Tool from existing external systems (e.g. Environmental Management Systems).
 
 
-`# <#-Frequently-Asked-Questions>`_ FAQs
-============================================
+FAQs
+====
 
-`# <#-Reporting-Data>`_ Reporting Data
-------------------------------------------
+Reporting Data
+--------------
 
 **How do I report data?**  
 
@@ -191,8 +191,8 @@ Your reported data will only be seen within the Tool once it has been accepted i
 
 Data that has been submitted but not accepted is shown in the performance table at the bottom of a dashboard. This data is still visible once accepted, but it is the only place on the dashboard where non-accepted data is visible and accounted for. 
 
-`# <#-Reporting-Data>`_ Reviewing Performance
--------------------------------------------------
+Reviewing Performance
+---------------------
 
 **Why are some of my issue and indicator tiles grey?**  
 

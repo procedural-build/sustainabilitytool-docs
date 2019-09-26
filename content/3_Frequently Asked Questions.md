@@ -1,6 +1,6 @@
-# [#](#-Frequently-Asked-Questions) FAQs
+#  FAQs
 
-## [#](#-Reporting-Data) Reporting Data
+##  Reporting Data
 
 **How do I report data?**  
 There are three way of reporting data:
@@ -32,7 +32,7 @@ Your reported data will only be seen within the Tool once it has been accepted i
 
 Data that has been submitted but not accepted is shown in the performance table at the bottom of a dashboard. This data is still visible once accepted, but it is the only place on the dashboard where non-accepted data is visible and accounted for. 
 
-## [#](#-Reporting-Data) Reviewing Performance
+##  Reviewing Performance
 
 **Why are some of my issue and indicator tiles grey?**  
 The Sustainability Tool uses RAG rating to denote performance against targets and thresholds (red: below target+threshold, amber: between target and threshold, green: above target).
