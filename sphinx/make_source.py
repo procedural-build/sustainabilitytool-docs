@@ -30,7 +30,8 @@ def slugify(value):
 
 
 def parse_dir_name(dirname):
-    dest_dir_name = slugify(dirname)
+    parts = [slugify(i) for i in dirname.split('/')]
+    dest_dir_name = "/".join(parts)
     return dest_dir_name, dirname
 
 
@@ -76,14 +77,21 @@ if __name__ == "__main__":
         print("PARSING FOLDER: %s"%(root))
 
         # Concatenate the .md files into a single .rst string
+        files.sort(key=lambda i: i)
         rst_blocks = [md_to_rst(f"{root}/{file}") for file in get_md_files(files)]
         rst_string = "\n\n".join(rst_blocks)
 
         # Make a matching folder in the dest_dir
         toctree = make_folder_toctree(root, sub_dirs)
         # Add a title
-        title = title_block(root) if "====" not in rst_string else ""
-        rst_string = title + toctree + rst_string
+        #if "1. User" in root:
+        #    import pdb;pdb.set_trace()
+        has_title = True if "====" in rst_string else False
+        if not has_title:
+            title = title_block(root)
+            rst_string = title + toctree + rst_string
+        else:
+            rst_string = rst_string + "\n\n" + toctree
 
         # Write this file to the destination
         (dest_dir_name, dirname) = parse_dir_name(root[len(SOURCE_DIR):])

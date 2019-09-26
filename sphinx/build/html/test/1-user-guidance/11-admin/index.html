@@ -1,0 +1,586 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Admin &mdash; SustainabilityTool 1.5 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Reporter" href="../12-reporter/index.html" />
+    <link rel="prev" title="How to use the Tool" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> SustainabilityTool
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../index.html"># Sustainability Tool User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html#an-introduction-to-the-sustainability-tool"># An Introduction to the Sustainability Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#what-is-the-tool"># What is the Tool?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#who-uses-it"># Who uses it?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html#general-guidance"># General guidance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#getting-started"># Getting Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#navigation"># Navigation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#key-features"># Key features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#key-functionality"># Key functionality</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html#faqs"># FAQs</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#reporting-data"># Reporting Data</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#reviewing-performance"># Reviewing Performance</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">How to use the Tool</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Admin</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../12-reporter/index.html">Reporter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../13-approver/index.html">Approver</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../14-viewer/index.html">Viewer</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../4-performance-management/index.html">4. Performance Management</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../5-api/index.html">5. API</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../6-security/index.html">6. Security</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../7_contacts/index.html">Key Contacts</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../faqs/index.html">Frequently Asked questions</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../glossary/index.html">Glossary of Terms</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html">Hi I’m a Linked Page</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#you-dont-need-to-declare-anything-in-the-frontmatter">You don’t need to declare anything in the frontmatter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#this-is-a-demo-template-page-to-get-started-with">This Is A Demo/Template Page To Get Started With</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#headers">Headers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#this-is-an-header-1">This is an Header 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../_blankpage/index.html#this-is-an-header-2">This is an Header 2</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#paragraphs">Paragraphs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#text-styles">Text styles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#links">Links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#images">Images</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#block-quotes">Block quotes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#lists">Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#horizontal-lines">Horizontal Lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#tables">Tables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../_blankpage/index.html#other">Other</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../_shared/index.html">_shared</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">SustainabilityTool</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html"># Sustainability Tool User Guide</a> &raquo;</li>
+        
+          <li><a href="../index.html">How to use the Tool</a> &raquo;</li>
+        
+      <li>Admin</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/test/1-user-guidance/11-admin/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="admin">
+<h1>Admin<a class="headerlink" href="#admin" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="the-role-of-an-admin">
+<h2>The role of an admin<a class="headerlink" href="#the-role-of-an-admin" title="Permalink to this headline">¶</a></h2>
+<p>There will be approximately four to five admins per client account. The admins will be individuals who are highly involved in the company’s sustainability performance and working with Action Sustainability during the configuration-phase of the Tool, for example: sustainability managers, procurement managers or environmental managers.</p>
+<p>An admin has the highest level of authority within the Tool.</p>
+<p>They have the highest level of editorial authority and are able to create, make changes to the settings of and delete the following:</p>
+<ul class="simple">
+<li><p>business units, projects and reporting packages;</p></li>
+<li><p>other users;</p></li>
+<li><p>metrics and indicators;</p></li>
+<li><p>targets and thresholds.</p></li>
+</ul>
+<p>Admins also have the highest level of viewing authority. They view all business units, projects and reporting packages they are set up in. They see all reports submitted and have the ability to approve or reject reports. As they can see all project dashboards, they see all sustainability measurement data, progress against targets and the RAG (Red, Amber, Green) status of all indicators. They also see the status of reporting packages (Approved, Pending Approval, Requires Revision or Nothing Received). Admins can see the names of all individuals involved, what level of authority they have and what project or reporting package they are associated with.</p>
+</div>
+<div class="section" id="getting-setup">
+<h2>Getting setup<a class="headerlink" href="#getting-setup" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="business-units">
+<h3>Business units<a class="headerlink" href="#business-units" title="Permalink to this headline">¶</a></h3>
+<p>Company admin users can create business units to manage sustainability performance for a subset of their organisation’s operations. A company account can have, directly below it, multiple business units and projects, which all contribute to the data in the company dashboard. In turn, business units can have other business units and projects within them. These will contribute to the data in the ‘parent’ business unit dashboard. Business unit dashboards only show data from other business units and projects that are below them. As such, users can use this functionality to manage performance for groups of projects at multiple levels within their organisation.</p>
+</div>
+<div class="section" id="create-business-unit">
+<h3>Create business unit<a class="headerlink" href="#create-business-unit" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Go to the company (or business unit) dashboard where the new business unit will feed into</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>Scroll down to the Business Units table</p></li>
+<li><p>Click ‘Add a Business Unit’ found on the top-right of the table</p></li>
+<li><p>Complete the relevant details and ‘Submit’</p></li>
+<li><p>To create additional business units, repeat steps 1 to 5</p></li>
+</ol>
+<p>To create a business unit within an existing business unit, go to the existing business unit’s dashboard and repeat steps 2 to 5.</p>
+</div>
+<div class="section" id="edit-a-business-unit-name">
+<h3>Edit a business unit name<a class="headerlink" href="#edit-a-business-unit-name" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Go to the business unit dashboard, by clicking on the relevant link in the left-hand menu</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>Under Corporate details, edit the Name field</p></li>
+<li><p>Click ‘Submit’</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="projects">
+<h2>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h2>
+<p>Needs writing</p>
+<div class="section" id="create-project">
+<h3>Create project<a class="headerlink" href="#create-project" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Go to the company (or business unit) dashboard where the new project unit will feed into</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>Scroll down to the ‘Projects at this level’ table and click ‘Add a Project’ found on the top-right of the table</p></li>
+<li><p>Enter the project name and address if relevant</p></li>
+<li><p>Define the project settings: - Reporting from: defines the beginning of the first reporting period; when reporting should commence - Reporting to: defines the month after which reporting will cease e.g. by selecting the 10th December 2019, you are indicating that reporting should end in November 2019 - Every &amp; Reporting Increments: define the frequency of the reporting periods e.g. “every 1 months” will generate a project with monthly reporting periods</p></li>
+<li><p>If using a template for the metrics and indicator settings, select appropriate template otherwise leave on “None”</p></li>
+<li><p>Click “Submit”</p></li>
+</ol>
+</div>
+<div class="section" id="edit-project-settings">
+<h3>Edit project settings<a class="headerlink" href="#edit-project-settings" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="name">
+<h4>Name<a class="headerlink" href="#name" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Go to the project dashboard, by clicking on the relevant link in the left-hand menu</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>Under Project details, edit the Name field</p></li>
+<li><p>Click ‘Submit’</p></li>
+</ol>
+</div>
+<div class="section" id="reporting-start-date">
+<h4>Reporting Start Date<a class="headerlink" href="#reporting-start-date" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Go to the project dashboard, by clicking on the relevant link in the left-hand menu</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>Under the Reporting Periods table, scroll down to the earliest reporting period with a 0 in the ‘Num Reports’ column</p></li>
+<li><p>Click on the settings icon and delete</p></li>
+<li><p>Repeat steps 3 and 4 until you have the earliest reporting period that corresponds to your desired reporting start date</p></li>
+</ol>
+</div>
+<div class="section" id="reporting-end-date">
+<h4>Reporting End Date<a class="headerlink" href="#reporting-end-date" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Go to the project dashboard, by clicking on the relevant link in the left-hand menu</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>Under the Reporting Periods table, click on ‘Edit Reporting Duration’</p></li>
+<li><p>Modify the Reporting to field to your end date required</p></li>
+<li><p>Click ‘Submit’</p></li>
+</ol>
+</div>
+<div class="section" id="reporting-frequency">
+<h4>Reporting Frequency<a class="headerlink" href="#reporting-frequency" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Go to the project dashboard, by clicking on the relevant link in the left-hand menu</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>Under the Reporting Periods table, click on ‘Eidt Reporting Duration’</p></li>
+<li><p>Modify the Every and Reporting Increments fields</p></li>
+<li><p>Click ‘Submit’</p></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="section" id="reporting-packages">
+<h2>Reporting Packages<a class="headerlink" href="#reporting-packages" title="Permalink to this headline">¶</a></h2>
+<p>To be written</p>
+<div class="section" id="create-reporting-packages">
+<h3>Create reporting packages<a class="headerlink" href="#create-reporting-packages" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Go to the project dashboard, by clicking on the relevant link in the left-hand menu</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>Under the Reporting Packages in Project table, click on ‘Add a Reporting Package’</p></li>
+<li><p>Click ‘Submit’</p></li>
+<li><p>To create additional reporting packages within a project, repeat steps 1 to 4</p></li>
+</ol>
+</div>
+<div class="section" id="edit-a-reporting-package">
+<h3>Edit a reporting package<a class="headerlink" href="#edit-a-reporting-package" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Go to the reporting package, by clicking on the relevant link in the left-hand menu</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>Complete the relevant details: - Set the current Reporting Period: select the first reporting period - Due date: select the date the first reporting period is due. Subsequent months will use the corresponding due date - Appoint report for this package: use the dropdown to determine who is responsible for inputting the data and submitting the reports</p></li>
+<li><p>Click ‘Submit’</p></li>
+</ol>
+</div>
+<div class="section" id="set-reporting-package-metrics">
+<h3>Set reporting package metrics<a class="headerlink" href="#set-reporting-package-metrics" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>To create additional reporting packages within a project, repeat steps 1 to 4</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="metrics">
+<h2>Metrics<a class="headerlink" href="#metrics" title="Permalink to this headline">¶</a></h2>
+<p>Metrics correspond to the fields reporters will input data against in a project e.g. tonnes of waste recycled.</p>
+<div class="section" id="create-metrics">
+<h3>Create Metrics<a class="headerlink" href="#create-metrics" title="Permalink to this headline">¶</a></h3>
+<p>It is recommended that users only create metrics at a ‘Project level’ and then add them to reporting packages using the template functionality. This process ensures data reported by users in their reporting packages correspond to metrics used to generate the indicators displayed in the project-level dashboards.</p>
+<p>Users can create metrics at a ‘reporting package’ level but this approach is not recommended.</p>
+<ol class="arabic simple">
+<li><p>Go to your project home</p></li>
+<li><p>In the Admin menu, select ‘Metrics’</p></li>
+<li><p>Once in the metrics page, click the ‘Set up Metrics’ drop down and select ‘Add Sustainability Issue’</p></li>
+<li><p>Select the relevant sustainability issue* for your metric and click ‘Submit’</p></li>
+<li><p>Click the settings icon on the same row as the sustainability issue you selected in step 4. Click ‘Add Metric’</p></li>
+<li><p>Enter the name and definition of the metric, and select the relevant unit*. Click ‘Submit’</p></li>
+<li><p>To create another metric, under the same sustainability issue, repeat steps 5 and 6</p></li>
+</ol>
+<ul class="simple">
+<li><p>contact <a class="reference external" href="mailto:charles&#46;naud&#37;&#52;&#48;actionsustainability&#46;com">charles<span>&#46;</span>naud<span>&#64;</span>actionsustainability<span>&#46;</span>com</a> for additional dropdown options for sustainability issues and units.</p></li>
+</ul>
+</div>
+<div class="section" id="create-sub-metrics">
+<h3>Create sub-metrics<a class="headerlink" href="#create-sub-metrics" title="Permalink to this headline">¶</a></h3>
+<p>Sub-metrics are fields reporters will input data against that will aggregate into metrics. These are often used alongside conversion factors e.g. ‘mains energy consumption’ and ‘mains gas consumption’ may be sub-metrics of ‘carbon scope 2 emissions’ (with the relevant conversion factors applied).</p>
+<p>Note 1: metrics are automatically calculated using by aggregating the data reported against their sub-metrics (using relevant conversion factors if applicable). Reporters can over-ride the automatic calculation.</p>
+<p>Note 2: there may be several levels of sub-metrics e.g. ‘domestic rail travel passenger miles’ may be a sub-metric of ‘total rail travel emissions’ (with the relevant conversion factors applied), which is in turn a sub-metric of ‘scope 3 carbon emissions’</p>
+<ol class="arabic simple">
+<li><p>Go to your project home</p></li>
+<li><p>In the Admin menu, select ‘Metrics’</p></li>
+<li><p>Click the settings icon on the same row as the metric you wish to create a sub-metric for. Click ‘Add Sub-Metric’</p></li>
+<li><p>Enter the name and definition of the metric, and select the relevant unit*. Click ‘Submit’</p></li>
+<li><p>To create another metric, repeat steps 3 to 5</p></li>
+</ol>
+<ul class="simple">
+<li><p>if the unit of a sub-metric is different to that of its parent metric, a warning icon will appear to indicate that a conversion factor is required.</p></li>
+</ul>
+</div>
+<div class="section" id="editing-metrics">
+<h3>Editing Metrics<a class="headerlink" href="#editing-metrics" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="required-metrics">
+<h4>Required metrics<a class="headerlink" href="#required-metrics" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Set metrics to ‘required’ to prevent reporters from submitting their data without inputting data against these fields.</p></li>
+<li><p>Go to your project home</p></li>
+<li><p>In the Admin menu, select ‘Metrics’</p></li>
+<li><p>Click the settings icon on the same row as the metric you wish to make compulsory. Click ‘Toggle Required’</p></li>
+<li><p>A red asterisk will indicate that the metric is ‘required’</p></li>
+</ol>
+<div class="section" id="set-edit-frequency">
+<h5>Set/edit frequency<a class="headerlink" href="#set-edit-frequency" title="Permalink to this headline">¶</a></h5>
+<p>By default, reporters will be able to input data against for each metric for every reporting period. You can modify the frequency of a metric to a lesser frequency than the reporting period defined in the project settings e.g. reports are due monthly (this is the reporting period) but the metric ‘floor area of project’ is only due once.</p>
+</div>
+<div class="section" id="add-conversion-factors">
+<h5>Add conversion factors<a class="headerlink" href="#add-conversion-factors" title="Permalink to this headline">¶</a></h5>
+<ol class="arabic simple">
+<li><p>Go to your project home</p></li>
+<li><p>In the Admin menu, select ‘Metrics’</p></li>
+<li><p>Click the settings icon on the same row as the metric you wish to modify/edit the reporting frequency. Click ‘Set Frequency’</p></li>
+<li><p>Complete the fields: - due every: enter an integer - period: select the relevant - from date: select the second day in the reporting period you wish this metric to be first reported</p></li>
+<li><p>Click ‘Submit’. The frequency of the metric will now display in the metric row</p></li>
+<li><p>To edit the metric frequency, repeat steps 1 to 5</p></li>
+</ol>
+<p>Note: the frequency a metric should be reported cannot be lesser than the reporting period, which is set in the project settings.</p>
+</div>
+</div>
+</div>
+<div class="section" id="delete-metrics">
+<h3>Delete Metrics<a class="headerlink" href="#delete-metrics" title="Permalink to this headline">¶</a></h3>
+<p>There are two options for deleting metrics within reporting packages. Option 2 is a faster method for if you have a lot of metrics and a lot of reporting packages.</p>
+<p>The first option requires you to delete the metrics that you do not want, leaving those that you do want to keep remaining.</p>
+<p>An important point to note is that if you do not want the metric or any of the sub metrics, you can delete the metric. This will remove all sub metrics. However if you want to keep only one sub metric and delete all of the other sub metrics, you must individually delete all sub metrics you do not want, leaving the sub metric that you do want.</p>
+<ol class="arabic simple">
+<li><p>Go to your reporting package</p></li>
+<li><p>In the Admin menu, select ‘Metrics’</p></li>
+<li><p>Click the settings icon on the same row as the metric you wish to delete. Click ‘Delete’</p></li>
+</ol>
+<p>The second option is to save the metrics that you want to keep, and delete those you do not want, as a template. This template can then be applied to the reporting packages that you want to change the metrics for.</p>
+<ol class="arabic simple">
+<li><p>Go to your project home</p></li>
+<li><p>Delete the metrics that you no longer require, using the steps in Option 1.</p></li>
+<li><p>In the Admin menu, select ‘Settings’</p></li>
+<li><p>In the ‘Project details’ section, give your template a name</p></li>
+<li><p>In the ‘Template settings’ section, tick the box to confirm that you want to set it as a template</p></li>
+<li><p>Now go to the reporting package that you want to apply this template to</p></li>
+<li><p>In the Admin menu, select ‘Metrics’</p></li>
+<li><p>Delete all metrics, using the metric to delete multiple sub-metrics in one go</p></li>
+<li><p>In the ‘Set up metrics’ in the right hand corner, select ‘Add from template’</p></li>
+<li><p>Select the name of the template that you have created from the template dropdown list</p></li>
+<li><p>To transfer all of the metrics from your template over to ‘Current metrics, you need to select ‘Add’ for each metric.</p></li>
+<li><p>In the Admin menu, select ‘Metrics’, you will see that all of your metrics have been updated.</p></li>
+</ol>
+<p>Allow reporters to upload documents to complement the data they input against a metric e.g. waste transfer notes</p>
+<ol class="arabic simple">
+<li><p>Go to your project home</p></li>
+<li><p>In the Admin menu, select ‘Metrics’</p></li>
+<li><p>Click the settings icon on the same row as the metric you wish to enable the document upload for. Click ‘Enable Document Upload’</p></li>
+<li><p>Enter the Title and a description of the document you expect reporters to upload. Click ‘Submit’. An integer in a bracket will indicate the document upload functionality is enabled for that metric</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="indicators">
+<h2>Indicators<a class="headerlink" href="#indicators" title="Permalink to this headline">¶</a></h2>
+<p>Gauges of performance that gives the user and understanding of how their project is performing in specific measures areas.</p>
+<div class="section" id="create-indicators">
+<h3>Create Indicators<a class="headerlink" href="#create-indicators" title="Permalink to this headline">¶</a></h3>
+<p>TBC</p>
+</div>
+<div class="section" id="editing-indicators">
+<h3>Editing Indicators<a class="headerlink" href="#editing-indicators" title="Permalink to this headline">¶</a></h3>
+<p>TBC</p>
+</div>
+<div class="section" id="setting-targets">
+<h3>Setting Targets<a class="headerlink" href="#setting-targets" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>As a Client User, you can set targets and performance thresholds for your Project indicators. These inform the Red, Amber, Green rating you see on your Project’s Sustainability Issues and indicator panels.</p></li>
+<li><p>Targets can be set at a Corporate (Business Unit), Project and Reporting Package level, allowing you to easily dig down into your project supply-chain to see where targets are and are not being met and who is responsible.</p></li>
+<li><p>To set your targets/thresholds, you will firstly need to decide if you want these to be set at a Business unit, Project or Reporting package level. Once you have decided, navigate to the dashboard at that level.</p></li>
+<li><p>On the dashboard, you should firstly click on the Sustainability issue panel your indicator is within. Clicking the issues panel will show all the indicators that are set up in that field.</p></li>
+<li><p>You then need to click on the indicator you wish to set a target for, to make sure it is only showing the performance data for that indicator in the graph below.</p></li>
+<li><p>At this stage, two boxes should appear below the table beneath the heading, “Set Target and Thresholds”</p></li>
+<li><p>You can then use the two boxes to input your indicator target and/or threshold</p></li>
+</ol>
+<p>Note: The tool will automatically pick up whether ‘good’ performance is being above or below the target value (i.e. do you want to be above a certain limit or stay below it). If the Red/Amber Threshold value is set higher than the Target value, then the Tool will automatically know that you want your project to have metric scores below the target vale.</p>
+</div>
+</div>
+<div class="section" id="conversion-factors">
+<h2>Conversion Factors<a class="headerlink" href="#conversion-factors" title="Permalink to this headline">¶</a></h2>
+<p>Conversion factors enable to calculate a metric from sub-metrics in a different unit e.g. ‘scope 3 carbon emissions’ in CO2e from the sub-metric ‘non-hazardous waste’ in tonnes.</p>
+<p>To add or edit multiple conversion factors, please contact <a class="reference external" href="mailto:charles&#46;naud&#37;&#52;&#48;actionsustainability&#46;com">charles<span>&#46;</span>naud<span>&#64;</span>actionsustainability<span>&#46;</span>com</a></p>
+<div class="section" id="adding-conversion-factors">
+<h3>Adding conversion factors<a class="headerlink" href="#adding-conversion-factors" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Go to your project home</p></li>
+<li><p>In the Admin menu, select ‘Metrics’</p></li>
+<li><p>Click the settings icon on the same row as the sub-metric you wish to apply a conversion factor against. Click ‘Add conversion factor’</p></li>
+<li><p>Specify the conversion factor to be applied for calculating one unit of the ‘parent’ metric from one unit of the sub-metric. Click ‘Submit’</p></li>
+</ol>
+</div>
+<div class="section" id="editing-conversion-factors">
+<h3>Editing Conversion factors<a class="headerlink" href="#editing-conversion-factors" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Go to your project home</p></li>
+<li><p>In the Admin menu, select ‘Metrics’</p></li>
+<li><p>Click the settings icon on the same row as the sub-metric you wish to edit the conversion factor. Click ‘Edit/show conversion factor’</p></li>
+<li><p>Modify the conversion factor to be applied for calculating one unit of the ‘parent’ metric from one unit of the sub-metric. Click ‘Submit’</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="targets-and-thresholds">
+<h2>Targets and Thresholds<a class="headerlink" href="#targets-and-thresholds" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setting-targets-and-thresholds">
+<h3>Setting Targets and Thresholds<a class="headerlink" href="#setting-targets-and-thresholds" title="Permalink to this headline">¶</a></h3>
+<p>As a Client User, you can set targets and performance thresholds for your Project indicators. These inform the Red, Amber, Green rating you see on your Project’s Sustainability Issues and indicator panels.</p>
+<p>Targets can be set at a Corporate (Business Unit), Project and Reporting Package level, allowing you to easily dig down into your project supply-chain to see where targets are and are not being met and who is responsible.</p>
+<p>To set your targets/thresholds, you will firstly need to decide if you want these to be set at a Business unit, Project or Reporting package level. Once you have decided, navigate to the dashboard at that level.</p>
+<ol class="arabic simple">
+<li><p>On the dashboard, you should firstly click on the Sustainability issue panel your indicator is within. Clicking the issues panel will show all the indicators that are set up in that field.</p></li>
+<li><p>You then need to click on the indicator you wish to set a target for, to make sure it is only showing the performance data for that indicator in the graph below.</p></li>
+<li><p>At this stage, two boxes should appear below the table beneath the heading, “Set Target and Thresholds”</p></li>
+<li><p>You can then use the two boxes to input your indicator target and./or threshold</p></li>
+</ol>
+<p>Note: The tool will automatically pick up whether ‘good’ performance is being above or below the target value (i.e. do you want to be above a certain limit or stay below it). If the Red/Amber Threshold value is set higher than the Target value, then the Tool will automatically know that you want your project to have metric scores below the target vale</p>
+</div>
+<div class="section" id="editing-targets-and-thresholds">
+<h3>Editing Targets and Thresholds<a class="headerlink" href="#editing-targets-and-thresholds" title="Permalink to this headline">¶</a></h3>
+<p>TBC</p>
+</div>
+</div>
+<div class="section" id="templates">
+<h2>Templates<a class="headerlink" href="#templates" title="Permalink to this headline">¶</a></h2>
+<p>TBC</p>
+<div class="section" id="creating-templates">
+<h3>Creating templates<a class="headerlink" href="#creating-templates" title="Permalink to this headline">¶</a></h3>
+<p>TBC</p>
+</div>
+<div class="section" id="using-templates">
+<h3>Using templates<a class="headerlink" href="#using-templates" title="Permalink to this headline">¶</a></h3>
+<p>TBC</p>
+</div>
+<div class="section" id="editing-templates">
+<h3>Editing templates<a class="headerlink" href="#editing-templates" title="Permalink to this headline">¶</a></h3>
+<p>TBC</p>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../12-reporter/index.html" class="btn btn-neutral float-right" title="Reporter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral float-left" title="How to use the Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Action Sustainability
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
