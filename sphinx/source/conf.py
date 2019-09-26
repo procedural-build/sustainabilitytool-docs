@@ -12,7 +12,6 @@
 #
 import os
 import sys
-import django
 import m2r
 
 
