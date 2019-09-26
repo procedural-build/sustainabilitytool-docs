@@ -1,5 +1,6 @@
-4. Performance Management
-=========================
+
+Performance Management
+======================
 
 .. toctree::
    :maxdepth: 10

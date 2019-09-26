@@ -1,3 +1,3 @@
-# Glossary of Terms
+# Glossary
 
 Here is a glossary of commonly used terms.

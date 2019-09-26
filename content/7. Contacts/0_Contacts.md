@@ -1,4 +1,4 @@
-# Key Contacts
+# Contact and Support
 
 For support, please contact charles.naud@actionsustainability.com
 

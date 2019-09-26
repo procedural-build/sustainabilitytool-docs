@@ -1,4 +1,4 @@
-#  General guidance
+# General guidance
 
 ##  Getting Started
 
@@ -21,16 +21,16 @@ Some of the key features that all users should familiarise themselves with when 
 ***Measuring Performance***
 - **Metrics:** Quantifiable measures that are used to track and assess performance against sustainability issues.
 - **Indicators:** Guages used to assess performance against measured sustainability issues.
-- **Targets & Thresholds:** Targets and thresholds benchmark performance for your project against your reporting indicators. These inform the Red, Amber, Green ratings seen on a project’s sustainability and issue tiles. 
+- **Targets & Thresholds:** Targets and thresholds benchmark performance for your project against your reporting indicators. These inform the Red, Amber, Green ratings seen on a project’s sustainability and issue tiles.
 - **Conversion Factors:** Used within the Tool to enable the calculation of a metric from sub-metrics in a different unit e.g. 'scope 3 carbon emissions' in CO2e from the sub-metric 'non-hazardous waste' in tonnes.
 
 ***Viewing Performance***
-- **Dashboards:** Dashboards visualise performance data inputted into the Sustainability Tool. Dashboards are available at each structural level within a company project, allowing Users to see different aggregations of performance. 
+- **Dashboards:** Dashboards visualise performance data inputted into the Sustainability Tool. Dashboards are available at each structural level within a company project, allowing Users to see different aggregations of performance.
 - **Sustainability Tiles:** Each tile relates to a specific sustainability issue being tracked within a company project. Each is RAG rated in line with the peformance against indicators feeding into each issue (e.g. air quality, community, employees)
 - **Indicator Tiles:** Indicator tiles visualise your performance against a particular indicator. Each is RAG rated to denote performance against defined targets and thresholds within the company project (e.g. % of total plant on site that is ‘clean’, Number of access and engagement initiatives)
-- **Performance Graphs:** Graphically visualises the cumulative performance of a company project a spcefic indicator they are measuring / being measured against over a 6-month period. 
-- **Performance Tables:** Show the reported numerical data being used to measure performance against targeted indicators within the Sustainability Tool for a company project. 
-- **Reports Submitted:** A landing page showing a comprehensive list of all the reports submitted within a reporting package. Users can view individual reports to see the specific data entered. 
+- **Performance Graphs:** Graphically visualises the cumulative performance of a company project a spcefic indicator they are measuring / being measured against over a 6-month period.
+- **Performance Tables:** Show the reported numerical data being used to measure performance against targeted indicators within the Sustainability Tool for a company project.
+- **Reports Submitted:** A landing page showing a comprehensive list of all the reports submitted within a reporting package. Users can view individual reports to see the specific data entered.
 
 ##  Key functionality
 

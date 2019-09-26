@@ -44,6 +44,8 @@ def make_folder_toctree(root, dirs):
     dirs.sort(key=lambda i: i)
     sub_toc_str = ""
     for dir in dirs:
+        if dir.startswith('_'):
+            continue
         files = DIR_MAP[f"{root}/{dir}"][2]
         #if not get_md_files(files):
         #    continue
@@ -74,6 +76,8 @@ if __name__ == "__main__":
     # Step through each folder and convert to rst
     for (key, value) in DIR_MAP.items():
         (root, sub_dirs, files) = value
+        if os.path.basename(root).startswith('_'):
+            continue
         print("PARSING FOLDER: %s"%(root))
 
         # Concatenate the .md files into a single .rst string

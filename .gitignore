@@ -2,3 +2,6 @@ site/
 .idea
 node_modules/
 index.yml
+
+sphinx/source/test
+sphinx/build*
