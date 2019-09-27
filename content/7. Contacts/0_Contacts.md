@@ -1,5 +1,6 @@
 # Contact and Support
 
-For support, please contact charles.naud@actionsustainability.com
+For further information and support, please contact one of our support team:
 
-Or imogen@actionsustainability.com
+* Charles Naud: charles.naud@actionsustainability.com
+* Imogen Player: imogen@actionsustainability.com
