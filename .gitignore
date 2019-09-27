@@ -3,5 +3,9 @@ site/
 node_modules/
 index.yml
 
-sphinx/source/test
+sphinx/source/*
 sphinx/build*
+!sphinx/source/conf.py
+!sphinx/source/index.rst.org
+!sphinx/source/_static/*
+!sphinx/source/_templates/*

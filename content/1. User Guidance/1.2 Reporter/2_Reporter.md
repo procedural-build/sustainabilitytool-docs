@@ -14,13 +14,13 @@ Once reported, the data will be approved or rejected by the Approver user and, o
 
 ## Getting setup
 
-##### Tool Registration and log in
+### Tool Registration and log in
 
 Reporters will receive an email inviting them to join a Company account on the Sustainability Tool. They should follow the simple steps outlined in the email, which includes opening a web link (https://uk.sustainabilitytool.com/accounts/register/), entering their contact details and then creating a password.
 
 Once registered, Reporters are able to access their account by going to https://uk.sustainabilitytool.com/, clicking the ‘sign in’ button in the top right-hand side of the page, and entering their newly set sign-in details.
 
-##### Project Registration
+### Project Registration
 
 Once the Reporter has logged in, they will land on their ‘User Dashboard’ page. They should then be able to see a list of their Company Memberships as well as the Project Reports that they have been assigned responsibility for completing.
 
@@ -32,7 +32,7 @@ The work package/s name/s should then appear in the ‘My Projects and Reports�
 
 To go into a work package, the Reporter can then simply click on the project title.
 
-##### Navigation
+### Navigation
 
 Reporters should use the left-hand bottom menu (below the title, ‘Business Units’) to access their dashboards and reporting packages.
 

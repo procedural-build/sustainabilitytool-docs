@@ -213,6 +213,7 @@ Note 2: there may be several levels of sub-metrics e.g. 'domestic rail travel pa
 ##### Set/edit frequency
 
 By default, reporters will be able to input data against for each metric for every reporting period. You can modify the frequency of a metric to a lesser frequency than the reporting period defined in the project settings e.g. reports are due monthly (this is the reporting period) but the metric 'floor area of project' is only due once.
+
 ##### Add conversion factors
 
 1. Go to your project home
@@ -234,7 +235,7 @@ Note: the frequency a metric should be reported cannot be lesser than the report
 
 There are two options for deleting metrics within reporting packages. Option 2 is a faster method for if you have a lot of metrics and a lot of reporting packages.
 
-##### Option 1
+#### Option 1
 The first option requires you to delete the metrics that you do not want, leaving those that you do want to keep remaining.
 An important point to note is that if you do not want the metric or any of the sub metrics, you can delete the metric. This will remove all sub metrics. However if you want to keep only one sub metric and delete all of the other sub metrics, you must individually delete all sub metrics you do not want, leaving the sub metric that you do want.
 
@@ -244,7 +245,7 @@ An important point to note is that if you do not want the metric or any of the s
 
 3. Click the settings icon on the same row as the metric you wish to delete. Click 'Delete'
 
-##### Option 2
+#### Option 2
 The second option is to save the metrics that you want to keep, and delete those you do not want, as a template. This template can then be applied to the reporting packages that you want to change the metrics for.
 
 1. Go to your project home
@@ -271,10 +272,12 @@ The second option is to save the metrics that you want to keep, and delete those
 
 12. In the Admin menu, select 'Metrics', you will see that all of your metrics have been updated.
 
-##### Enable document upload
+### Enable document upload
 
 Allow reporters to upload documents to complement the data they input against a metric e.g. waste transfer notes
-##### Edit conversion factors
+
+
+### Edit conversion factors
 
 
 1. Go to your project home

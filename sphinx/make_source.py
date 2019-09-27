@@ -9,7 +9,7 @@ import os
 import re
 
 SOURCE_DIR = "../content"
-DEST_DIR = "./source/test"
+DEST_DIR = "./source"
 
 # Get a dictionary mapping parent folder names to children
 DIR_MAP = {i[0]: i for i in os.walk(SOURCE_DIR)}
@@ -46,12 +46,10 @@ def make_folder_toctree(root, dirs):
     for dir in dirs:
         if dir.startswith('_'):
             continue
-        files = DIR_MAP[f"{root}/{dir}"][2]
-        #if not get_md_files(files):
-        #    continue
         (dest_dir_name, section_name) = parse_dir_name(dir)
         sub_toc_str += f"   {dest_dir_name}/index.rst\n"
-    return f".. toctree::\n   :maxdepth: 10\n\n{sub_toc_str}\n\n"
+    max_depth = 10 if not root == SOURCE_DIR else 2
+    return f".. toctree::\n   :maxdepth: {max_depth}\n\n{sub_toc_str}\n\n"
 
 
 def md_to_rst(filepath):

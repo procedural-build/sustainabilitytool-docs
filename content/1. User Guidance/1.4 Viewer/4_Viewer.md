@@ -16,7 +16,7 @@ To be completed
 
 This lets the Client User see all the member accounts linked to the specific business unit, project or work package they are reviewing, as well as their authority (i.e. their responsibilities).
 
-#### Add reporter
+### Add reporter
 
 Go to your project dashboard by clicking on the relevant project in the left-hand menu.
 
