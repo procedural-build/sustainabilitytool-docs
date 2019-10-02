@@ -49,8 +49,6 @@ To create a business unit within an existing business unit, go to the existing b
 
 ## Projects
 
-Needs writing
-
 ### Create project
 
 
@@ -120,8 +118,6 @@ Needs writing
 5. Click ‘Submit’
 
 ## Reporting Packages
-
-To be written     
 
 ### Create reporting packages
 
@@ -292,14 +288,6 @@ Allow reporters to upload documents to complement the data they input against a 
 
 Gauges of performance that gives the user and understanding of how their project is performing in specific measures areas.
 
-### Create Indicators
-
-TBC
-
-### Editing Indicators
-
-TBC
-
 ### Setting Targets
 
 1. As a Client User, you can set targets and performance thresholds for your Project indicators. These inform the Red, Amber, Green rating you see on your Project’s Sustainability Issues and indicator panels.
@@ -362,25 +350,4 @@ To set your targets/thresholds, you will firstly need to decide if you want thes
 
 4. You can then use the two boxes to input your indicator target and./or threshold
 
-Note: The tool will automatically pick up whether ‘good’ performance is being above or below the target value (i.e. do you want to be above a certain limit or stay below it). If the Red/Amber Threshold value is set higher than the Target value, then the Tool will automatically know that you want your project to have metric scores below the target vale
-
-
-### Editing Targets and Thresholds
-
-TBC
-
-## Templates
-
-TBC
-
-### Creating templates
-
-TBC
-
-### Using templates
-
-TBC
-
-### Editing templates
-
-TBC
+Note: The tool will automatically pick up whether ‘good’ performance is being above or below the target value (i.e. do you want to be above a certain limit or stay below it). If the Red/Amber Threshold value is set higher than the Target value, then the Tool will automatically know that you want your project to have metric scores below the target value.
