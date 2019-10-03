@@ -5,10 +5,7 @@ pipeline {
   stages {
     stage('Build && Deploy') {
       steps {
-        sh 'npm install'
-        sh 'node --experimental-modules code/updateIndex.mjs'
-        sh 'node --experimental-modules code/updateTOC.mjs'
-        sh 'cuttlebelle'
+        sh 'cd sphinx && ./make_source.sh && ./all_make.sh'
         script {
             if (env.BRANCH_NAME == 'master') {
                 env.S3_BUNDLE_PATH = '/stable/'
@@ -20,7 +17,7 @@ pipeline {
         echo "Uploading files to ${S3_BUNDLE_PATH}"
         withAWS(region: 'eu-west-2', credentials: 'docker_euwest2') {
           s3Delete(bucket:'procedural-frontend-bundles', path:"${S3_BUNDLE_PATH}")
-          s3Upload(file: 'site/', bucket:'procedural-frontend-bundles', path:"${S3_BUNDLE_PATH}")
+          s3Upload(file: 'sphinx/build/html/', bucket:'procedural-frontend-bundles', path:"${S3_BUNDLE_PATH}")
         }
       }
     }
