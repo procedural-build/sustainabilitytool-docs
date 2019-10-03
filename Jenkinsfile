@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Build && Deploy') {
       steps {
-        sh 'cd sphinx && ./make_source.sh && ./all_make.sh'
+        sh 'cd sphinx && ./make_source.py && ./all_make.sh'
         script {
             if (env.BRANCH_NAME == 'master') {
                 env.S3_BUNDLE_PATH = '/stable/'
