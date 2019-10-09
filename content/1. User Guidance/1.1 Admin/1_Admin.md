@@ -49,7 +49,6 @@ To create a business unit within an existing business unit, go to the existing b
 
 ## Projects
 
-Needs writing
 
 ### Create project
 
@@ -121,7 +120,6 @@ Needs writing
 
 ## Reporting Packages
 
-To be written     
 
 ### Create reporting packages
 
@@ -147,7 +145,7 @@ To be written
 
 ### Set reporting package metrics
 
-1. To create additional reporting packages within a project, repeat steps 1 to 4
+1. Best practice for setting metrics in your reporting package is to do this with the assistance of Action Sustainability. Please notify your contact at Action Sustainability if you would like to set, amend or delete metrics within your reporting packages.
 
 ## Metrics
 
@@ -214,21 +212,17 @@ Note 2: there may be several levels of sub-metrics e.g. 'domestic rail travel pa
 
 By default, reporters will be able to input data against for each metric for every reporting period. You can modify the frequency of a metric to a lesser frequency than the reporting period defined in the project settings e.g. reports are due monthly (this is the reporting period) but the metric 'floor area of project' is only due once.
 
-##### Add conversion factors
-
 1. Go to your project home
 
-2. In the Admin menu, select 'Metrics'
+2. In the Admin menu, select ‘Metrics’
 
-3. Click the settings icon on the same row as the metric you wish to modify/edit the reporting frequency. Click 'Set Frequency'
+3. Click the settings icon on the same row as the metric you wish to modify/edit the reporting frequency. Click ‘Set Frequency’
 
 4. Complete the fields: - due every: enter an integer - period: select the relevant - from date: select the second day in the reporting period you wish this metric to be first reported
 
-5. Click 'Submit'. The frequency of the metric will now display in the metric row
+5. Click ‘Submit’. The frequency of the metric will now display in the metric row
 
 6. To edit the metric frequency, repeat steps 1 to 5
-
-Note: the frequency a metric should be reported cannot be lesser than the reporting period, which is set in the project settings.
 
 
 ### Delete Metrics  
@@ -277,8 +271,7 @@ The second option is to save the metrics that you want to keep, and delete those
 Allow reporters to upload documents to complement the data they input against a metric e.g. waste transfer notes
 
 
-### Edit conversion factors
-
+### Adding document upload functionality to a metric
 
 1. Go to your project home
 
@@ -294,11 +287,11 @@ Gauges of performance that gives the user and understanding of how their project
 
 ### Create Indicators
 
-TBC
+1. It is considered best practice that if you would like new indicators added to your account, this should be supported by an Action Sustainability consultant. Please reach out to your contact at Action Sustainability if you would like to discuss this. 
 
 ### Editing Indicators
 
-TBC
+1. It is considered best practice that if you would like to edit indicators in your account, this should be supported by an Action Sustainability consultant. Please reach out to your contact at Action Sustainability if you would like to discuss this. 
 
 ### Setting Targets
 
@@ -367,20 +360,17 @@ Note: The tool will automatically pick up whether ‘good’ performance is bein
 
 ### Editing Targets and Thresholds
 
-TBC
+1. Go to your project home
+
+2. In the Admin menu, select 'Indicators'
+
+3. Click the settings (cog) icon on the same row as the indicator you wish to edit the target and threshold for. Click 'Set Targets'.
+
+4. Enter in the target and threshold figures you want to set against the indicator and click submit.
 
 ## Templates
 
-TBC
+Templates can be set up in the Tool so that if a user wants to create multiple projects with similar structures they do not have to go through the same design process for each. A template allows users to replicate projects, including metrics, indicators, conversion factors and other variables available in the setup process. 
 
-### Creating templates
+If you would like to replicate a project and/or would like to look at this opportunity, please contact Action Sustainability. They will be able to assist with this. 
 
-TBC
-
-### Using templates
-
-TBC
-
-### Editing templates
-
-TBC
