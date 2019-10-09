@@ -12,9 +12,11 @@ See reporting user section for guidance
 
 ## Viewing project members
 
-To be completed
+1. Make sure you are at project level or higher using the left-hand navigation menu.
 
-This lets the Client User see all the member accounts linked to the specific business unit, project or work package they are reviewing, as well as their authority (i.e. their responsibilities).
+2. In the top menu, select the drop down menu titled 'project' or 'company' dependent on the level you are at.
+
+3. Select the 'members' option from this drop down menu.
 
 ### Add reporter
 
@@ -56,8 +58,6 @@ By clicking on an issue panel, the user is then given a sub-set of indicator pan
 
 ###  Data
 
-To be written
+Data is summarised on the dashboards within the Tool.
 
-Graphs: Once a User has clicked into a panel, they will also be shown a performance graph. This shows the performance metric against time, giving the user a greater understanding of whether the project is improving or worsening against key performance indicators.
-
-Users can click on the legend on these graphs to add and remove indicators from that graph that sit within the selected sustainability issue.
+Please see the 'viewing performance' section in the 'General Guidance' chapter for details. 
