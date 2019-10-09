@@ -59,4 +59,15 @@ By clicking submit, the Reporter will then be presented with a pop-up to confirm
 
 ### Adding documents
 
-TBC
+Reporters may be required to upload documentation to support the performance figures entered for specific metrics.
+
+On the reports due page, Reporters will be able to see a full list of the metrics they are required to report against. If document upload functionality has been requested for a metric, Reporters will be able to see this at the end of the row for the required metric. There will be a grey button with 'select file' on it as well as a bracketed number which references the number of documents required.
+
+To upload a document:
+
+1. Click the 'select file' button at the end of the metric row on the 'Reports due' page. This will bring up a window to your files.
+
+2. Select the file you want to use and click 'upload'. You will then be able to see the file on the 'Reports due' page at the end of the related metric's row. There will be two new buttons, one blue with the word 'upload' and one grey with the word 'clear'.
+
+3. If you are happy with the selected file, click upload. If you have selected the wrong file, click clear and start again from point 1. 
+
