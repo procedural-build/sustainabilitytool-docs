@@ -54,5 +54,3 @@ Metrics --> Indicator --> Sustainability Issues
 The performance tables collect and visualise all data that has been entered into the Tool (for that particular level and indicator) whereas graphs only display data that has been accepted by an approver.
 
 Therefore if a table is showing three months of data but said data is not on the performance graph, it will likely mean that your data hasnt been accepted and/or data may have been reviewed and rejected. You can check the status of your submitted reports on the 'reports submitted' page, accessible through the top navigation menu.
-
-**What is the difference between the two tables on the dashboards?**  
