@@ -15,7 +15,7 @@ Note also that the API documentation is interactive and requests may be made thr
 
 **Note**: In order to interactively use the API then please ensure that you login to the __Swagger__ documentation page first to obtain a cookie which you may then use to access full documentation on __Redoc__ or make use of the interactive API endpoints. The interactive API uses a cookie-based authentication that is different from the authentication of the main website - so logging in to the main site will not work.
 
-## Exmple Jupyter Notebook
+## Example Jupyter Notebook
 
 An example Jupyter (Python) Notebook outlining an example scenario for reporting into the tool programatically may be downloaded here:
 * [PDF](/assets/files/sample.pdf)
