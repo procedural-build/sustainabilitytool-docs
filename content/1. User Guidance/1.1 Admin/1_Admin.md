@@ -140,6 +140,14 @@ To create a business unit within an existing business unit, go to the existing b
 
 8. Click 'Submit'
 
+#### Add members 
+
+1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
+
+2. In the Project menu, select 'members'
+
+3.	Click on "send invite". Add the user email, select the relevant supplier and click 'Submit'
+
 ## Reporting Packages
 
 
