@@ -118,6 +118,27 @@ To create a business unit within an existing business unit, go to the existing b
 
 5. Click ‘Submit’
 
+#### Add project members
+
+1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
+
+2. In the Project menu, select 'members'
+
+3. Click on 'add an authority group' to add the following authority groups: aprover, reporter and viewer. You will be able to select the level of authority for each group by ticking in the corresponding boxes.
+
+4. Click 'Save'
+
+5. Add project suppliers by clicking on 'Add a supplier':
+    a) Aprover: Fill in the box 'Supplier name' and choose the authority group 'aprover' from the scroll down menu. Leave 'choose an aprover' and click 'Submit'
+    b) Reporter: Fill in the box 'Supplier name' and choose the authority group 'reporter' from the scroll down menu. Choose an approver and click 'Submit'
+    c) Viewer: Fill in the box 'Supplier name' and choose the authority group 'viewer' from the scroll down menu. Leave 'choose an aprover' and click 'Submit'
+
+6.  To invite project members, click on 'Send invite'
+
+7. Input the email and choose the corresponding supplier
+
+8. Click 'Submit'
+
 ## Reporting Packages
 
 
@@ -277,6 +298,19 @@ The second option is to save the metrics that you want to keep, and delete those
 11. To transfer all of the metrics from your template over to 'Current metrics, you need to select 'Add' for each metric.
 
 12. In the Admin menu, select 'Metrics', you will see that all of your metrics have been updated.
+
+### Add back a metric if accidentally deleted
+
+1. Go to your reporting package
+
+2. In the Admin menu, select 'Metrics'
+
+3. Click on the option labelled ‘Set up metrics’ in the top right corner and select ‘Add from template’
+
+4. Select the relevant template by clicking on the scrawl down menu. This will allow you to see all metrics included in the original report set up
+
+5. Identify the metric you want to add back to the report and click ‘Add’. 
+
 
 ### Enable document upload
 
