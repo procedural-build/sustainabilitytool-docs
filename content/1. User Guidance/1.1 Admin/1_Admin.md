@@ -143,6 +143,18 @@ To create a business unit within an existing business unit, go to the existing b
 
 4. Click 'Submit'
 
+### End a reporting package
+
+1. Go to the reporting package, by clicking on the relevant link in the left-hand menu
+
+2. In the Admin menu, select 'Settings'
+
+3. Set the 'Current Reporting Period' to blank
+
+4. Set the 'reporter for this package' to blank
+
+5. Click 'Submit'
+
 ### Set reporting package metrics
 
 1. Best practice for setting metrics in your reporting package is to do this with the assistance of Action Sustainability. Please notify your contact at Action Sustainability if you would like to set, amend or delete metrics within your reporting packages.
