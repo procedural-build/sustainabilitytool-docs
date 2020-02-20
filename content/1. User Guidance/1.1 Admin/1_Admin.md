@@ -129,9 +129,9 @@ To create a business unit within an existing business unit, go to the existing b
 4. Click 'Save'
 
 5. Add project suppliers by clicking on 'Add a supplier':
-    a) Aprover: Fill in the box 'Supplier name' and choose the authority group 'aprover' from the scroll down menu. Leave 'choose an aprover' and click 'Submit'
-    b) Reporter: Fill in the box 'Supplier name' and choose the authority group 'reporter' from the scroll down menu. Choose an approver and click 'Submit'
-    c) Viewer: Fill in the box 'Supplier name' and choose the authority group 'viewer' from the scroll down menu. Leave 'choose an aprover' and click 'Submit'
+    - Aprover: Fill in the box 'Supplier name' and choose the authority group 'aprover' from the scroll down menu. Leave 'choose an aprover' and click 'Submit'
+    - Reporter: Fill in the box 'Supplier name' and choose the authority group 'reporter' from the scroll down menu. Choose an approver and click 'Submit'
+    - Viewer: Fill in the box 'Supplier name' and choose the authority group 'viewer' from the scroll down menu. Leave 'choose an aprover' and click 'Submit'
 
 6.  To invite project members, click on 'Send invite'
 
