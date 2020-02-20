@@ -83,7 +83,6 @@ To create a business unit within an existing business unit, go to the existing b
 #### Reporting Start Date
 
 
-
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
 2. In the Admin menu, select ‘Settings’
@@ -95,6 +94,7 @@ To create a business unit within an existing business unit, go to the existing b
 5. Repeat steps 3 and 4 until you have the earliest reporting period that corresponds to your desired reporting start date
 
 #### Reporting End Date     
+
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -108,6 +108,7 @@ To create a business unit within an existing business unit, go to the existing b
 
 #### Reporting Frequency
 
+
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
 2. In the Admin menu, select ‘Settings’
@@ -118,7 +119,7 @@ To create a business unit within an existing business unit, go to the existing b
 
 5. Click ‘Submit’
 
-#### Add project members
+### Project members
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
