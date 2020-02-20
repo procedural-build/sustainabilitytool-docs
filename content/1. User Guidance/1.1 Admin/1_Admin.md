@@ -119,6 +119,16 @@ To create a business unit within an existing business unit, go to the existing b
 
 5. Click ‘Submit’
 
+
+### Delete a project
+
+1. Select the business unit the project belongs to by clicking on the relevant link in the left-hand menu
+
+2. Click on ‘admin’ in the top right hand corner, then ‘settings’
+
+3. Under ‘Projects at this level’ click on the cog next to the project you want to delete, then press ‘delete’
+
+
 ### Project members
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
