@@ -129,7 +129,7 @@ To create a business unit within an existing business unit, go to the existing b
 3. Under ‘Projects at this level’ click on the cog next to the project you want to delete, then press ‘delete’
 
 
-### Project members
+## Members
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -150,13 +150,23 @@ To create a business unit within an existing business unit, go to the existing b
 
 8. Click 'Submit'
 
-#### Add members 
+### Add users 
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
 2. In the Project menu, select 'members'
 
 3.	Click on "send invite". Add the user email, select the relevant supplier and click 'Submit'
+
+### Delete users 
+
+1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
+
+2. In the Project menu, select 'members'
+
+3. In the 'members' table (and 'outstanding invitations' table if applicable) identify the users no longer reporting
+
+4.	Click on the cog settings icon and delete
 
 ## Reporting Packages
 
@@ -182,6 +192,29 @@ To create a business unit within an existing business unit, go to the existing b
 3. Complete the relevant details: - Set the current Reporting Period: select the first reporting period - Due date: select the date the first reporting period is due. Subsequent months will use the corresponding due date - Appoint report for this package: use the dropdown to determine who is responsible for inputting the data and submitting the reports
 
 4. Click 'Submit'
+
+#### Modify reporting package dates
+
+1. Go to the reporting package, by clicking on the relevant link in the left-hand menu
+
+2. In the Admin menu, select ‘Settings’
+
+3. Under the first section ‘Reporting Package details’, ‘set the current reporting period’ to the month that you want the reporting to start
+
+3. Select the 'Due date': select the date the next reporting period is due. Note: subsequent months will use the selected day of the month as the corresponding due date
+
+4. Click ‘Submit’
+
+#### Modify reporting package due dates
+
+1. Go to the reporting package, by clicking on the relevant link in the left-hand menu
+
+2. In the Admin menu, select ‘Settings’
+
+3. Due date: select the date the next reporting period is due. Note: subsequent months will use the selected day of the month as the corresponding due date
+
+4. Click ‘Submit’
+
 
 ### End a reporting package
 
