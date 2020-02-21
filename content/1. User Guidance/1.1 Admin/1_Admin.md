@@ -52,7 +52,6 @@ To create a business unit within an existing business unit, go to the existing b
 
 ### Create project
 
-
 1. Go to the company (or business unit) dashboard where the new project unit will feed into
 
 2. In the Admin menu, select ‘Settings’
@@ -67,10 +66,10 @@ To create a business unit within an existing business unit, go to the existing b
 
 7. Click "Submit"
 
+
 ### Edit project settings
 
 #### Name
-
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -80,8 +79,8 @@ To create a business unit within an existing business unit, go to the existing b
 
 4. Click 'Submit'
 
-#### Reporting Start Date
 
+#### Reporting Start Date
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -93,8 +92,8 @@ To create a business unit within an existing business unit, go to the existing b
 
 5. Repeat steps 3 and 4 until you have the earliest reporting period that corresponds to your desired reporting start date
 
-#### Reporting End Date     
 
+#### Reporting End Date     
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -106,8 +105,8 @@ To create a business unit within an existing business unit, go to the existing b
 
 5. Click ‘Submit’
 
-#### Reporting Frequency
 
+#### Reporting Frequency
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -140,6 +139,7 @@ To create a business unit within an existing business unit, go to the existing b
 4. Click 'Save'
 
 5. Add project suppliers by clicking on 'Add a supplier':
+
     - Aprover: Fill in the box 'Supplier name' and choose the authority group 'aprover' from the scroll down menu. Leave 'choose an aprover' and click 'Submit'
     - Reporter: Fill in the box 'Supplier name' and choose the authority group 'reporter' from the scroll down menu. Choose an approver and click 'Submit'
     - Viewer: Fill in the box 'Supplier name' and choose the authority group 'viewer' from the scroll down menu. Leave 'choose an aprover' and click 'Submit'
@@ -167,6 +167,7 @@ To create a business unit within an existing business unit, go to the existing b
 3. In the 'members' table (and 'outstanding invitations' table if applicable) identify the users no longer reporting
 
 4.	Click on the cog settings icon and delete
+
 
 ## Reporting Packages
 
