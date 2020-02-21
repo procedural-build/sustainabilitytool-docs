@@ -150,7 +150,7 @@ To create a business unit within an existing business unit, go to the existing b
 
 8. Click 'Submit'
 
-### Add users 
+### Add a user 
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -158,7 +158,7 @@ To create a business unit within an existing business unit, go to the existing b
 
 3.	Click on "send invite". Add the user email, select the relevant supplier and click 'Submit'
 
-### Delete users 
+### Delete a user
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
