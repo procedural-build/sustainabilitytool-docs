@@ -118,7 +118,7 @@ To create a business unit within an existing business unit, go to the existing b
 
 5. Click ‘Submit’
 
-Note: we suggest that after creating and setting up a project, you also add the project users. To see instructions, click 
+Note: we suggest that after creating and setting up a project, you also add the project users. To see instructions, click [here](https://docs.sustainabilitytool.com/1-user-guidance/11-admin/index.html#users) 
 
 ### Delete a project
 
@@ -143,11 +143,11 @@ Authority groups refer to project roles usually described as: aprover, reporter 
 
 3. Click on 'add an authority group' to add the following authority groups: aprover, reporter and viewer. You will be able to select the level of authority for each group by ticking in the corresponding boxes.
 
-  - Aprover: Fill in the box 'Supplier name' and choose the authority group 'aprover' from the scroll down menu. Leave 'choose an aprover' blank and click 'Submit'
+   - Aprover: Fill in the box 'Supplier name' and choose the authority group 'aprover' from the scroll down menu. Leave 'choose an aprover' blank and click 'Submit'
 
-  - Reporter: Fill in the box 'Supplier name' and choose the authority group 'reporter' from the scroll down menu. Choose an approver and click 'Submit'
+   - Reporter: Fill in the box 'Supplier name' and choose the authority group 'reporter' from the scroll down menu. Choose an approver and click 'Submit'
 
-  - Viewer: Fill in the box 'Supplier name' and choose the authority group 'viewer' from the scroll down menu. Leave 'choose an aprover' blank and click 'Submit'
+   - Viewer: Fill in the box 'Supplier name' and choose the authority group 'viewer' from the scroll down menu. Leave 'choose an aprover' blank and click 'Submit'
 
 4. Click 'Save'
 
