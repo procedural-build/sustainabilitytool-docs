@@ -118,6 +118,7 @@ To create a business unit within an existing business unit, go to the existing b
 
 5. Click ‘Submit’
 
+Note: we suggest that after creating and setting up a project, you also add the project users. To see instructions, click 
 
 ### Delete a project
 
@@ -128,7 +129,13 @@ To create a business unit within an existing business unit, go to the existing b
 3. Under ‘Projects at this level’ click on the cog next to the project you want to delete, then press ‘delete’
 
 
-## Members
+## Users
+
+Users are members who have access to a specific project, it includes both 'Authority Groups' and 'Project Suppliers'. This section outlines how to set up users and how to invite them to join a project.
+
+### Add authority groups
+
+Authority groups refer to project roles usually described as: aprover, reporter and viewer. To see more details on these specific roles, please check the individual sections outlined in this user guidence.
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
@@ -136,27 +143,37 @@ To create a business unit within an existing business unit, go to the existing b
 
 3. Click on 'add an authority group' to add the following authority groups: aprover, reporter and viewer. You will be able to select the level of authority for each group by ticking in the corresponding boxes.
 
+  - Aprover: Fill in the box 'Supplier name' and choose the authority group 'aprover' from the scroll down menu. Leave 'choose an aprover' blank and click 'Submit'
+
+  - Reporter: Fill in the box 'Supplier name' and choose the authority group 'reporter' from the scroll down menu. Choose an approver and click 'Submit'
+
+  - Viewer: Fill in the box 'Supplier name' and choose the authority group 'viewer' from the scroll down menu. Leave 'choose an aprover' blank and click 'Submit'
+
 4. Click 'Save'
 
-5. Add project suppliers by clicking on 'Add a supplier':
-
-- Aprover: Fill in the box 'Supplier name' and choose the authority group 'aprover' from the scroll down menu. Leave 'choose an aprover' blank and click 'Submit'
-- Reporter: Fill in the box 'Supplier name' and choose the authority group 'reporter' from the scroll down menu. Choose an approver and click 'Submit'
-- Viewer: Fill in the box 'Supplier name' and choose the authority group 'viewer' from the scroll down menu. Leave 'choose an aprover' blank and click 'Submit'
-
-6.  To invite project members, click on 'Send invite'
-
-7. Input the email and choose the corresponding supplier
-
-8. Click 'Submit'
-
-### Add a user 
+### Add project suppliers
 
 1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
 
 2. In the Project menu, select 'members'
 
-3.	Click on "send invite". Add the user email, select the relevant supplier and click 'Submit'
+3. Click on 'Add a supplier' and fill out the required information
+
+4. Click 'Submit'
+
+### Add a user
+
+This option allows you to invite users to join a specific project. Make sure to invite all individuals that will require access to the project.
+
+1. Go to the project dashboard, by clicking on the relevant link in the left-hand menu
+
+2. In the Project menu, select 'members'
+
+6.  To invite project members, click on 'Send invite'
+
+7. Input the user's email and choose the corresponding supplier
+
+8. Click 'Submit'
 
 ### Delete a user
 
